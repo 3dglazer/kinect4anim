@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* OpenKinect.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* OpenKinect.1 */; };
+		D95D612B16BEB7E100510F01 /* libHalf.6.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D612A16BEB7E100510F01 /* libHalf.6.0.0.dylib */; };
+		D95D612D16BEB7E100510F01 /* libIex.6.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D612C16BEB7E100510F01 /* libIex.6.0.0.dylib */; };
+		D95D612F16BEB7E100510F01 /* libIlmImf.6.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D612E16BEB7E100510F01 /* libIlmImf.6.0.0.dylib */; };
+		D95D613116BEB7E100510F01 /* libIlmThread.6.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D613016BEB7E100510F01 /* libIlmThread.6.0.0.dylib */; };
+		D95D613316BEB7E100510F01 /* libImath.6.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D613216BEB7E100510F01 /* libImath.6.0.0.dylib */; };
+		D95D613716BEB82D00510F01 /* libfreenect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D613616BEB82D00510F01 /* libfreenect.dylib */; };
+		D95D613916BEB82E00510F01 /* libfreenect_sync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D613816BEB82E00510F01 /* libfreenect_sync.a */; };
+		D95D613B16BEB82E00510F01 /* libfreenect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D613A16BEB82E00510F01 /* libfreenect.a */; };
+		D95D613D16BEB82E00510F01 /* libfreenect_sync.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D613C16BEB82E00510F01 /* libfreenect_sync.dylib */; };
+		D95D613F16BEB82E00510F01 /* libfreenect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D613E16BEB82E00510F01 /* libfreenect.dylib */; };
+		D95D614116BEB82E00510F01 /* libfreenect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D614016BEB82E00510F01 /* libfreenect.dylib */; };
+		D95D614316BEB82E00510F01 /* libfreenect_sync.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D614216BEB82E00510F01 /* libfreenect_sync.dylib */; };
+		D95D614516BEB82E00510F01 /* libfreenect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D614416BEB82E00510F01 /* libfreenect.dylib */; };
+		D95D616816BEB9D000510F01 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D616716BEB9D000510F01 /* GLUT.framework */; };
+		D95D616C16BEB9D500510F01 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D616B16BEB9D500510F01 /* OpenGL.framework */; };
+		D95D640D16C01A8E00510F01 /* QueueDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95D640C16C01A8E00510F01 /* QueueDemo.cpp */; };
+		D95D641216C01EC600510F01 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95D641116C01EC600510F01 /* thread.cpp */; };
+		D9DE52F416C69772007D9578 /* libjpeg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE52F316C69772007D9578 /* libjpeg.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* OpenKinect.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* OpenKinect */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenKinect; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* OpenKinect.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenKinect.1; sourceTree = "<group>"; };
+		D95D612A16BEB7E100510F01 /* libHalf.6.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.6.0.0.dylib; path = usr/local/lib/libHalf.6.0.0.dylib; sourceTree = SDKROOT; };
+		D95D612C16BEB7E100510F01 /* libIex.6.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIex.6.0.0.dylib; path = usr/local/lib/libIex.6.0.0.dylib; sourceTree = SDKROOT; };
+		D95D612E16BEB7E100510F01 /* libIlmImf.6.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIlmImf.6.0.0.dylib; path = usr/local/lib/libIlmImf.6.0.0.dylib; sourceTree = SDKROOT; };
+		D95D613016BEB7E100510F01 /* libIlmThread.6.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIlmThread.6.0.0.dylib; path = usr/local/lib/libIlmThread.6.0.0.dylib; sourceTree = SDKROOT; };
+		D95D613216BEB7E100510F01 /* libImath.6.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libImath.6.0.0.dylib; path = usr/local/lib/libImath.6.0.0.dylib; sourceTree = SDKROOT; };
+		D95D613616BEB82D00510F01 /* libfreenect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.dylib; path = "/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib"; sourceTree = "<absolute>"; };
+		D95D613816BEB82E00510F01 /* libfreenect_sync.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreenect_sync.a; path = "/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect_sync.a"; sourceTree = "<absolute>"; };
+		D95D613A16BEB82E00510F01 /* libfreenect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreenect.a; path = "/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.a"; sourceTree = "<absolute>"; };
+		D95D613C16BEB82E00510F01 /* libfreenect_sync.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect_sync.dylib; path = "/libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect_sync.dylib"; sourceTree = "<absolute>"; };
+		D95D613E16BEB82E00510F01 /* libfreenect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.dylib; path = "/libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect.dylib"; sourceTree = "<absolute>"; };
+		D95D614016BEB82E00510F01 /* libfreenect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.dylib; path = "/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug/libfreenect.dylib"; sourceTree = "<absolute>"; };
+		D95D614216BEB82E00510F01 /* libfreenect_sync.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect_sync.dylib; path = "/libusb-7da756e/openC/libfreenect/build/lib/libfreenect_sync.dylib"; sourceTree = "<absolute>"; };
+		D95D614416BEB82E00510F01 /* libfreenect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreenect.dylib; path = "/libusb-7da756e/openC/libfreenect/build/lib/libfreenect.dylib"; sourceTree = "<absolute>"; };
+		D95D616716BEB9D000510F01 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		D95D616B16BEB9D500510F01 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		D95D640B16C01A8E00510F01 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		D95D640C16C01A8E00510F01 /* QueueDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueueDemo.cpp; sourceTree = "<group>"; };
+		D95D641016C01EC600510F01 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		D95D641116C01EC600510F01 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		D9DE52F316C69772007D9578 /* libjpeg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.dylib; path = "/opt/libjpeg-turbo/lib/libjpeg.dylib"; sourceTree = "<absolute>"; };
+		D9DE52F616C6978F007D9578 /* writeJPEG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writeJPEG.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95D612B16BEB7E100510F01 /* libHalf.6.0.0.dylib in Frameworks */,
+				D95D612D16BEB7E100510F01 /* libIex.6.0.0.dylib in Frameworks */,
+				D95D612F16BEB7E100510F01 /* libIlmImf.6.0.0.dylib in Frameworks */,
+				D95D613116BEB7E100510F01 /* libIlmThread.6.0.0.dylib in Frameworks */,
+				D95D613316BEB7E100510F01 /* libImath.6.0.0.dylib in Frameworks */,
+				D95D613716BEB82D00510F01 /* libfreenect.dylib in Frameworks */,
+				D95D613916BEB82E00510F01 /* libfreenect_sync.a in Frameworks */,
+				D95D613B16BEB82E00510F01 /* libfreenect.a in Frameworks */,
+				D95D613D16BEB82E00510F01 /* libfreenect_sync.dylib in Frameworks */,
+				D95D613F16BEB82E00510F01 /* libfreenect.dylib in Frameworks */,
+				D95D614116BEB82E00510F01 /* libfreenect.dylib in Frameworks */,
+				D95D614316BEB82E00510F01 /* libfreenect_sync.dylib in Frameworks */,
+				D95D614516BEB82E00510F01 /* libfreenect.dylib in Frameworks */,
+				D95D616816BEB9D000510F01 /* GLUT.framework in Frameworks */,
+				D95D616C16BEB9D500510F01 /* OpenGL.framework in Frameworks */,
+				D9DE52F416C69772007D9578 /* libjpeg.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* OpenKinect */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				D95D612A16BEB7E100510F01 /* libHalf.6.0.0.dylib */,
+				D95D612C16BEB7E100510F01 /* libIex.6.0.0.dylib */,
+				D95D612E16BEB7E100510F01 /* libIlmImf.6.0.0.dylib */,
+				D95D613016BEB7E100510F01 /* libIlmThread.6.0.0.dylib */,
+				D95D613216BEB7E100510F01 /* libImath.6.0.0.dylib */,
+				D95D613616BEB82D00510F01 /* libfreenect.dylib */,
+				D95D613816BEB82E00510F01 /* libfreenect_sync.a */,
+				D95D613A16BEB82E00510F01 /* libfreenect.a */,
+				D95D613C16BEB82E00510F01 /* libfreenect_sync.dylib */,
+				D95D613E16BEB82E00510F01 /* libfreenect.dylib */,
+				D95D614016BEB82E00510F01 /* libfreenect.dylib */,
+				D95D614216BEB82E00510F01 /* libfreenect_sync.dylib */,
+				D95D614416BEB82E00510F01 /* libfreenect.dylib */,
+				D95D616716BEB9D000510F01 /* GLUT.framework */,
+				D95D616B16BEB9D500510F01 /* OpenGL.framework */,
+				D9DE52F316C69772007D9578 /* libjpeg.dylib */,
+			);
+			name = OpenKinect;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D95D641016C01EC600510F01 /* thread.h */,
+				D95D641116C01EC600510F01 /* thread.cpp */,
+				D95D640B16C01A8E00510F01 /* Queue.h */,
+				D95D640C16C01A8E00510F01 /* QueueDemo.cpp */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				D9DE52F616C6978F007D9578 /* writeJPEG.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* OpenKinect */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* OpenKinect.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* OpenKinect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "OpenKinect" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenKinect;
+			productInstallPath = "$(HOME)/bin";
+			productName = OpenKinect;
+			productReference = 8DD76F6C0486A84900D96B5E /* OpenKinect */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "OpenKinect" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* OpenKinect */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* OpenKinect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				D95D640D16C01A8E00510F01 /* QueueDemo.cpp in Sources */,
+				D95D641216C01EC600510F01 /* thread.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/libusb-7da756e/openC/libfreenect/build/lib/Debug\"",
+					"\"/libusb-7da756e/openC/libfreenect/build/lib/Release\"",
+					"\"/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug\"",
+					"\"/libusb-7da756e/openC/libfreenect/build/lib\"",
+					"/opt/local/lib/**",
+					"\"/opt/libjpeg-turbo/lib\"",
+				);
+				PRODUCT_NAME = OpenKinect;
+				USER_HEADER_SEARCH_PATHS = "/libusb-7da756e/openC/libfreenect/wrappers/c_sync/** /libusb-7da756e/openC/libfreenect/include/** /libusb-7da756e/openC/libfreenect/wrappers/cpp/** /opt/local/include/ /usr/local/include/OpenEXR/**";
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_VERSION = 4.0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/libusb-7da756e/openC/libfreenect/build/lib/Debug\"",
+					"\"/libusb-7da756e/openC/libfreenect/build/lib/Release\"",
+					"\"/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug\"",
+					"\"/libusb-7da756e/openC/libfreenect/build/lib\"",
+					/opt/local/lib,
+					"\"/opt/libjpeg-turbo/lib\"",
+				);
+				PRODUCT_NAME = OpenKinect;
+				USER_HEADER_SEARCH_PATHS = "/opt/local/include/ /usr/local/include/OpenEXR/** /libusb-7da756e/openC/libfreenect/wrappers/c_sync/** /libusb-7da756e/openC/libfreenect/include/** /libusb-7da756e/openC/libfreenect/wrappers/cpp/**";
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "OpenKinect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "OpenKinect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

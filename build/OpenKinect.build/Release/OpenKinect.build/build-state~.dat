@@ -1,0 +1,516 @@
+TOpenKinect
+v7
+r0
+t381630168.040159
+cCheck dependencies
+cCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o /myPrograms/OpenKinect/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o /myPrograms/OpenKinect/testTSQueue.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /myPrograms/OpenKinect/build/Release/OpenKinect normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004D5A2790000000000001A494
+t1297754000
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004CC42BAC000000000000578C
+t1287924652
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004D5A2791000000000000DB14
+t1297754001
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/semaphore.h
+c000000004BBD2CE9000000000000046F
+t1270689001
+s1135
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004CC3DE680000000000004A1D
+t1287904872
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/timeb.h
+c000000004CC3DE6800000000000010C2
+t1287904872
+s4290
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004CC3DE680000000000002905
+t1287904872
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib
+c0000000050B61CE90000000000043B60
+t1354112233
+s277344
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib
+c0000000050B61CE9000000000001F130
+t1354112233
+s127280
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib
+c0000000050B620FD0000000000122540
+t1354113277
+s1189184
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib
+c0000000050B61CEA0000000000009610
+t1354112234
+s38416
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib
+c0000000050B61CEA0000000000009B00
+t1354112234
+s39680
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.a
+c00000000510A9B320000000000021D28
+t1359649586
+s138536
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib
+c00000000510E775C00000000000102E0
+t1359902556
+s66272
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect_sync.a
+c00000000510A9B330000000000006480
+t1359649587
+s25728
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect.dylib
+c00000000510E4E61000000000000B998
+t1359892065
+s47512
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect_sync.dylib
+c00000000510E66960000000000004F70
+t1359898262
+s20336
+
+N/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug/libfreenect.dylib
+c00000000510A9B320000000000005C88
+t1359649586
+s23688
+
+N/libusb-7da756e/openC/libfreenect/build/lib/libfreenect.dylib
+c00000000510A9ADC00000000000113F0
+t1359649500
+s70640
+
+N/libusb-7da756e/openC/libfreenect/build/lib/libfreenect_sync.dylib
+c00000000510A9ADD0000000000004F70
+t1359649501
+s20336
+
+N/libusb-7da756e/openC/libfreenect/include/libfreenect.h
+c00000000510A897A0000000000005F6E
+t1359645050
+s24430
+i<stdint.h>
+i<winsock.h>
+i<sys/time.h>
+
+N/libusb-7da756e/openC/libfreenect/wrappers/c_sync/libfreenect_sync.h
+c00000000510A897A0000000000000D33
+t1359645050
+s3379
+i<libfreenect.h>
+i<stdint.h>
+
+N/myPrograms/OpenKinect/Base.h
+c000000004D5E63820000000000000FAA
+t1298031490
+s4010
+i<stdlib.h>
+
+N/myPrograms/OpenKinect/TSQueue.h
+c00000000510EFF440000000000003B23
+t1359937348
+s15139
+i<deque>
+i<iterator>
+i<semaphore.h>
+i<pthread.h>
+i<errno.h>
+i<string.h>
+i"Base.h"
+i<sys/time.h>
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/OpenKinect
+t2
+s0
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/OpenKinect.LinkFileList
+c00000000510EEA6700000000000000C6
+t1359932007
+s198
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/main.o
+t1359932405
+s178908
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/thread.o
+t1359932405
+s7772
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect
+t1359932405
+s26736
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList
+c00000000510EFF5600000000000000CF
+t1359937366
+s207
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o
+t1359937368
+s182412
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o
+t1359937367
+s64764
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/thread.o
+t1359932404
+s9256
+
+N/myPrograms/OpenKinect/build/Release/OpenKinect
+t2
+s0
+
+N/myPrograms/OpenKinect/build/Release/OpenKinect.dSYM
+t2
+s0
+
+N/myPrograms/OpenKinect/main.cpp
+c00000000510EFB39000000000000520D
+t1359936313
+s21005
+i"libfreenect.h"
+i"libfreenect_sync.h"
+i<pthread.h>
+i<stdio.h>
+i<iostream>
+i<string.h>
+i<cmath>
+i<vector>
+i<stdio.h>
+i<exception>
+i<ImfInputFile.h>
+i<ImfRgbaFile.h>
+i<ImfChannelList.h>
+i<ImfFrameBuffer.h>
+i<half.h>
+i<GLUT/glut.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/glut.h>
+i<GL/gl.h>
+i<GL/glu.h>
+i<stdio.h>
+i<stdlib.h>
+i<string>
+i<sys/time.h>
+i<sys/timeb.h>
+i<time.h>
+i<algorithm>
+i<TSQueue.h>
+i<sys/stat.h>
+i<sys/types.h>
+i<libfreenect.h>
+i<stdio.h>
+i<signal.h>
+i<string.h>
+i<stdlib.h>
+i<sys/time.h>
+
+N/myPrograms/OpenKinect/queue.h
+c00000000510ECD7000000000000007B4
+t1359924592
+s1972
+i<pthread.h>
+i<stdlib.h>
+i<list>
+
+N/myPrograms/OpenKinect/testTSQueue.cpp
+c00000000510EFE2D00000000000007B8
+t1359937069
+s1976
+i<time.h>
+i<algorithm>
+i<TSQueue.h>
+
+N/myPrograms/OpenKinect/thread.cpp
+c00000000510710CE000000000000069B
+t1359417550
+s1691
+i"thread.h"
+
+N/myPrograms/OpenKinect/thread.h
+c00000000510710CE0000000000000429
+t1359417550
+s1065
+i<pthread.h>
+
+N/usr/local/include/OpenEXR/ImfChannelList.h
+c0000000050B620FF0000000000002C43
+t1354113279
+s11331
+
+N/usr/local/include/OpenEXR/ImfFrameBuffer.h
+c0000000050B620FF000000000000244E
+t1354113279
+s9294
+
+N/usr/local/include/OpenEXR/ImfInputFile.h
+c0000000050B620FF0000000000001BE9
+t1354113279
+s7145
+
+N/usr/local/include/OpenEXR/ImfRgbaFile.h
+c0000000050B620FF0000000000002C25
+t1354113279
+s11301
+
+N/usr/local/include/OpenEXR/half.h
+c0000000050B61CE9000000000000451F
+t1354112233
+s17695
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies381630166#381630166#0(0"0(0#1#0"8647843808#0"0#
+
+CCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/main.o /myPrograms/OpenKinect/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381625204.833663
+e381625205.732479
+r1
+xCompileC
+xbuild/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/main.o
+x/myPrograms/OpenKinect/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /myPrograms/OpenKinect/main.cpp381625204#381625205#0(0"0(0#0#31"/myPrograms/OpenKinect/main.cpp8653817632#1024"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Release -I/usr/local/include/OpenEXR -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/myPrograms/OpenKinect/build/Release/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources/i386 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/main.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/thread.o /myPrograms/OpenKinect/thread.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381625205.684175
+e381625205.776392
+r1
+xCompileC
+xbuild/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/thread.o
+x/myPrograms/OpenKinect/thread.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /myPrograms/OpenKinect/thread.cpp381625205#381625205#0(0"0(0#0#33"/myPrograms/OpenKinect/thread.cpp8653654976#1028"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Release -I/usr/local/include/OpenEXR -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/myPrograms/OpenKinect/build/Release/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources/i386 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/thread.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/thread.o0#
+
+CCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o /myPrograms/OpenKinect/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381630166.561436
+e381630168.015315
+r1
+xCompileC
+xbuild/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o
+x/myPrograms/OpenKinect/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/myPrograms/OpenKinect/main.cpp: In function 'void* runAThread(void*)':
+o/myPrograms/OpenKinect/main.cpp:358: warning: no return statement in function returning non-void
+o/myPrograms/OpenKinect/main.cpp: In function 'void* runBThread(void*)':
+o/myPrograms/OpenKinect/main.cpp:371: warning: no return statement in function returning non-void
+o/myPrograms/OpenKinect/main.cpp: In function 'int main(int, char**)':
+o/myPrograms/OpenKinect/main.cpp:395: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+o/myPrograms/OpenKinect/main.cpp:401: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+o/myPrograms/OpenKinect/main.cpp:405: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+o/myPrograms/OpenKinect/main.cpp:412: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+o/myPrograms/OpenKinect/TSQueue.h: In member function 'typename TSQueue<T>::locking_iterator& TSQueue<T>::locking_iterator::operator=(const TSQueue<T>::locking_iterator&) [with T = int]':
+o/myPrograms/OpenKinect/TSQueue.h:446: warning: control reaches end of non-void function
+o/myPrograms/OpenKinect/main.cpp: In function 'void* runBThread(void*)':
+o/myPrograms/OpenKinect/main.cpp:371: warning: control reaches end of non-void function
+o/myPrograms/OpenKinect/main.cpp: In function 'void* runAThread(void*)':
+o/myPrograms/OpenKinect/main.cpp:358: warning: control reaches end of non-void function
+lSLF07#2@39"Compile /myPrograms/OpenKinect/main.cpp381630166#381630168#0(1445"/myPrograms/OpenKinect/main.cpp: In function 'void* runAThread(void*)':/myPrograms/OpenKinect/main.cpp:358: warning: no return statement in function returning non-void/myPrograms/OpenKinect/main.cpp: In function 'void* runBThread(void*)':/myPrograms/OpenKinect/main.cpp:371: warning: no return statement in function returning non-void/myPrograms/OpenKinect/main.cpp: In function 'int main(int, char**)':/myPrograms/OpenKinect/main.cpp:395: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'/myPrograms/OpenKinect/main.cpp:401: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'/myPrograms/OpenKinect/main.cpp:405: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'/myPrograms/OpenKinect/main.cpp:412: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'/myPrograms/OpenKinect/TSQueue.h: In member function 'typename TSQueue<T>::locking_iterator& TSQueue<T>::locking_iterator::operator=(const TSQueue<T>::locking_iterator&) [with T = int]':/myPrograms/OpenKinect/TSQueue.h:446: warning: control reaches end of non-void function/myPrograms/OpenKinect/main.cpp: In function 'void* runBThread(void*)':/myPrograms/OpenKinect/main.cpp:371: warning: control reaches end of non-void function/myPrograms/OpenKinect/main.cpp: In function 'void* runAThread(void*)':/myPrograms/OpenKinect/main.cpp:358: warning: control reaches end of non-void function9(22@50"No return statement in function returning non-void381630167#72#97#0(6@31"/myPrograms/OpenKinect/main.cpp381629113#358#0#358#0#50"no return statement in function returning non-void0(22@50"No return statement in function returning non-void381630167#241#97#0(6@31"/myPrograms/OpenKinect/main.cpp381629113#371#0#371#0#50"no return statement in function returning non-void0(22@64"Format '%d' expects type 'int', but argument 2 has type 'size_t'381630167#408#111#0(6@31"/myPrograms/OpenKinect/main.cpp381629113#395#0#395#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 2 has type 'size_t'381630167#519#111#0(6@31"/myPrograms/OpenKinect/main.cpp381629113#401#0#401#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 2 has type 'size_t'381630167#630#111#0(6@31"/myPrograms/OpenKinect/main.cpp381629113#405#0#405#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 2 has type 'size_t'381630167#741#111#0(6@31"/myPrograms/OpenKinect/main.cpp381629113#412#0#412#0#56"format '*' expects type '*', but argument * has type '*'0(22@40"Control reaches end of non-void function381630167#1039#88#0(6@32"/myPrograms/OpenKinect/TSQueue.h381630148#446#0#446#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function381630167#1199#87#0(6@31"/myPrograms/OpenKinect/main.cpp381629113#371#0#371#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function381630167#1358#87#0(6@31"/myPrograms/OpenKinect/main.cpp381629113#358#0#358#0#40"control reaches end of non-void function0(0#0#31"/myPrograms/OpenKinect/main.cpp8645089024#1030"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Release -I/usr/local/include/OpenEXR -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/myPrograms/OpenKinect/build/Release/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/main.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o /myPrograms/OpenKinect/testTSQueue.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381630166.562443
+e381630167.148397
+r1
+xCompileC
+xbuild/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o
+x/myPrograms/OpenKinect/testTSQueue.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/myPrograms/OpenKinect/testTSQueue.cpp: In function 'void* runAThread(void*)':
+o/myPrograms/OpenKinect/testTSQueue.cpp:18: warning: no return statement in function returning non-void
+o/myPrograms/OpenKinect/testTSQueue.cpp: In function 'void* runBThread(void*)':
+o/myPrograms/OpenKinect/testTSQueue.cpp:31: warning: no return statement in function returning non-void
+o/myPrograms/OpenKinect/testTSQueue.cpp:31: warning: control reaches end of non-void function
+o/myPrograms/OpenKinect/testTSQueue.cpp: In function 'void* runAThread(void*)':
+o/myPrograms/OpenKinect/testTSQueue.cpp:18: warning: control reaches end of non-void function
+lSLF07#2@46"Compile /myPrograms/OpenKinect/testTSQueue.cpp381630166#381630167#0(629"/myPrograms/OpenKinect/testTSQueue.cpp: In function 'void* runAThread(void*)':/myPrograms/OpenKinect/testTSQueue.cpp:18: warning: no return statement in function returning non-void/myPrograms/OpenKinect/testTSQueue.cpp: In function 'void* runBThread(void*)':/myPrograms/OpenKinect/testTSQueue.cpp:31: warning: no return statement in function returning non-void/myPrograms/OpenKinect/testTSQueue.cpp:31: warning: control reaches end of non-void function/myPrograms/OpenKinect/testTSQueue.cpp: In function 'void* runAThread(void*)':/myPrograms/OpenKinect/testTSQueue.cpp:18: warning: control reaches end of non-void function4(22@50"No return statement in function returning non-void381630167#79#103#0(6@38"/myPrograms/OpenKinect/testTSQueue.cpp381629869#18#0#18#0#50"no return statement in function returning non-void0(22@50"No return statement in function returning non-void381630167#261#103#0(6@38"/myPrograms/OpenKinect/testTSQueue.cpp381629869#31#0#31#0#50"no return statement in function returning non-void0(22@40"Control reaches end of non-void function381630167#364#93#0(6@38"/myPrograms/OpenKinect/testTSQueue.cpp381629869#31#0#31#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function381630167#536#93#0(6@38"/myPrograms/OpenKinect/testTSQueue.cpp381629869#18#0#18#0#40"control reaches end of non-void function0(0#0#38"/myPrograms/OpenKinect/testTSQueue.cpp8641810976#1044"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Release -I/usr/local/include/OpenEXR -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/myPrograms/OpenKinect/build/Release/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/testTSQueue.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o0#
+
+CCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/thread.o /myPrograms/OpenKinect/thread.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381625204.759772
+e381625204.833560
+r1
+xCompileC
+xbuild/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/thread.o
+x/myPrograms/OpenKinect/thread.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /myPrograms/OpenKinect/thread.cpp381625204#381625204#0(0"0(0#0#33"/myPrograms/OpenKinect/thread.cpp8655396096#1034"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Release -I/usr/local/include/OpenEXR -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/myPrograms/OpenKinect/build/Release/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/thread.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/thread.o0#
+
+CCreateUniversalBinary /myPrograms/OpenKinect/build/Release/OpenKinect normal "x86_64 i386"
+r0
+
+CGenerateDSYMFile /myPrograms/OpenKinect/build/Release/OpenKinect.dSYM /myPrograms/OpenKinect/build/Release/OpenKinect
+s381628168.593656
+e381628168.610113
+r1
+xGenerateDSYMFile
+x/myPrograms/OpenKinect/build/Release/OpenKinect.dSYM
+x/myPrograms/OpenKinect/build/Release/OpenKinect
+lSLF07#2@71"GenerateDSYMFile build/Release/OpenKinect.dSYM build/Release/OpenKinect381628168#381628168#0(0"0(0#0#47"/myPrograms/OpenKinect/build/Release/OpenKinect8648534368#166"    cd /myPrograms/OpenKinect    /Developer/usr/bin/dsymutil /myPrograms/OpenKinect/build/Release/OpenKinect -o /myPrograms/OpenKinect/build/Release/OpenKinect.dSYM0#
+
+CLd /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/OpenKinect normal i386
+s381625205.776487
+e381625205.819359
+r0
+xLd
+x/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/OpenKinect
+xnormal
+xi386
+old: warning: directory '/myPrograms/OpenKinect/build/Release' following -L not found
+old: warning: directory '/myPrograms/OpenKinect/build/Release' following -F not found
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect_sync.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+oUndefined symbols:
+o  "Imf::RgbaOutputFile::setFrameBuffer(Imf::Rgba const*, unsigned long, unsigned long)", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "Imf::RgbaOutputFile::RgbaOutputFile(char const*, Imf::Header const&, Imf::RgbaChannels, int)", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "Imf::RgbaOutputFile::~RgbaOutputFile()", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "Imf::RgbaOutputFile::writePixels(int)", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "Imf::globalThreadCount()", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "Imf::Header::~Header()", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "Imf::Header::Header(Imath::Box<Imath::Vec2<int> > const&, Imath::Box<Imath::Vec2<int> > const&, float, Imath::Vec2<float> const&, float, Imf::LineOrder, Imf::Compression)", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "half::_eLut", referenced from:
+o      __ZN4half5_eLutE$non_lazy_ptr in main.o
+o     (maybe you meant: __ZN4half5_eLutE$non_lazy_ptr)
+o  "Imf::Header::compression()", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "half::convert(int)", referenced from:
+o      half::half(float)in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@106"Link /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/OpenKinect381625205#381625205#0(3278"ld: warning: directory '/myPrograms/OpenKinect/build/Release' following -L not foundld: warning: directory '/myPrograms/OpenKinect/build/Release' following -F not foundld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect_sync.dylib, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  "Imf::RgbaOutputFile::setFrameBuffer(Imf::Rgba const*, unsigned long, unsigned long)", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "Imf::RgbaOutputFile::RgbaOutputFile(char const*, Imf::Header const&, Imf::RgbaChannels, int)", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "Imf::RgbaOutputFile::~RgbaOutputFile()", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "Imf::RgbaOutputFile::writePixels(int)", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "Imf::globalThreadCount()", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "Imf::Header::~Header()", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "Imf::Header::Header(Imath::Box<Imath::Vec2<int> > const&, Imath::Box<Imath::Vec2<int> > const&, float, Imath::Vec2<float> const&, float, Imf::LineOrder, Imf::Compression)", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "half::_eLut", referenced from:      __ZN4half5_eLutE$non_lazy_ptr in main.o     (maybe you meant: __ZN4half5_eLutE$non_lazy_ptr)  "Imf::Header::compression()", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "half::convert(int)", referenced from:      half::half(float)in main.old: symbol(s) not foundcollect2: ld returned 1 exit status34(22@71"Directory '/myPrograms/OpenKinect/build/Release' following -L not found381625205#0#85#0(6@0"381625205#0#0#0#0#0"0(22@71"Directory '/myPrograms/OpenKinect/build/Release' following -F not found381625205#85#85#0(6@0"381625205#0#0#0#0#0"0(22@161"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381625205#170#175#0(6@0"381625205#0#0#0#0#0"0(22@160"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381625205#345#174#0(6@0"381625205#0#0#0#0#0"0(22@163"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381625205#519#177#0(6@0"381625205#0#0#0#0#0"0(22@166"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381625205#696#180#0(6@0"381625205#0#0#0#0#0"0(22@162"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381625205#876#176#0(6@0"381625205#0#0#0#0#0"0(22@164"In /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381625205#1052#178#0(6@0"381625205#0#0#0#0#0"0(22@171"In /libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect_sync.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381625205#1230#185#0(6@0"381625205#0#0#0#0#0"0(4@103""Imf::RgbaOutputFile::setFrameBuffer(Imf::Rgba const*, unsigned long, unsigned long)", referenced from:381625205#1434#106#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#1540#90#0(6@0"381625205#0#0#0#0#0"0(4@112""Imf::RgbaOutputFile::RgbaOutputFile(char const*, Imf::Header const&, Imf::RgbaChannels, int)", referenced from:381625205#1630#115#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#1745#90#0(6@0"381625205#0#0#0#0#0"0(4@58""Imf::RgbaOutputFile::~RgbaOutputFile()", referenced from:381625205#1835#61#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#1896#90#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#1986#90#0(6@0"381625205#0#0#0#0#0"0(4@57""Imf::RgbaOutputFile::writePixels(int)", referenced from:381625205#2076#60#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#2136#90#0(6@0"381625205#0#0#0#0#0"0(4@44""Imf::globalThreadCount()", referenced from:381625205#2226#47#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#2273#90#0(6@0"381625205#0#0#0#0#0"0(4@42""Imf::Header::~Header()", referenced from:381625205#2363#45#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#2408#90#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#2498#90#0(6@0"381625205#0#0#0#0#0"0(4@190""Imf::Header::Header(Imath::Box<Imath::Vec2<int> > const&, Imath::Box<Imath::Vec2<int> > const&, float, Imath::Vec2<float> const&, float, Imf::LineOrder, Imf::Compression)", referenced from:381625205#2588#193#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#2781#90#0(6@0"381625205#0#0#0#0#0"0(4@31""half::_eLut", referenced from:381625205#2871#34#0(6@0"381625205#0#0#0#0#0"0(13@39"__ZN4half5_eLutE$non_lazy_ptr in main.o381625205#2905#46#0(6@0"381625205#0#0#0#0#0"0(13@48"(maybe you meant: __ZN4half5_eLutE$non_lazy_ptr)381625205#2951#54#0(6@0"381625205#0#0#0#0#0"0(4@46""Imf::Header::compression()", referenced from:381625205#3005#49#0(6@0"381625205#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381625205#3054#90#0(6@0"381625205#0#0#0#0#0"0(4@38""half::convert(int)", referenced from:381625205#3144#41#0(6@0"381625205#0#0#0#0#0"0(13@26"Half::half(float)in main.o381625205#3185#33#0(6@0"381625205#0#0#0#0#0"0(13@19"Symbol(s) not found381625205#3218#24#0(6@0"381625205#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status381625205#3242#36#0(6@0"381625205#0#0#0#0#0"0(0#0#0"8653189856#910"    cd /myPrograms/OpenKinect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/OpenKinect/build/Release -L/libusb-7da756e/openC/libfreenect/build/lib/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Release -L/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug -L/libusb-7da756e/openC/libfreenect/build/lib -F/myPrograms/OpenKinect/build/Release -filelist /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/OpenKinect.LinkFileList -mmacosx-version-min=10.6 -lHalf.6.0.0 -lIex.6.0.0 -lIlmImf.6.0.0 -lIlmThread.6.0.0 -lImath.6.0.0 -lfreenect -lfreenect_sync -lfreenect -lfreenect_sync -lfreenect -lfreenect -lfreenect_sync -lfreenect -framework GLUT -framework OpenGL -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/OpenKinect1#
+
+CLd /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect normal x86_64
+s381625205.655422
+e381625205.684073
+r1
+xLd
+x/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect
+xnormal
+xx86_64
+old: warning: directory '/myPrograms/OpenKinect/build/Release' following -L not found
+old: warning: directory '/myPrograms/OpenKinect/build/Release' following -F not found
+lSLF07#2@108"Link /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect381625205#381625205#0(170"ld: warning: directory '/myPrograms/OpenKinect/build/Release' following -L not foundld: warning: directory '/myPrograms/OpenKinect/build/Release' following -F not found2(22@71"Directory '/myPrograms/OpenKinect/build/Release' following -L not found381625205#0#85#0(6@0"381625205#0#0#0#0#0"0(22@71"Directory '/myPrograms/OpenKinect/build/Release' following -F not found381625205#85#85#0(6@0"381625205#0#0#0#0#0"0(0#0#0"8655404064#916"    cd /myPrograms/OpenKinect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/OpenKinect/build/Release -L/libusb-7da756e/openC/libfreenect/build/lib/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Release -L/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug -L/libusb-7da756e/openC/libfreenect/build/lib -F/myPrograms/OpenKinect/build/Release -filelist /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList -mmacosx-version-min=10.6 -lHalf.6.0.0 -lIex.6.0.0 -lIlmImf.6.0.0 -lIlmThread.6.0.0 -lImath.6.0.0 -lfreenect -lfreenect_sync -lfreenect -lfreenect_sync -lfreenect -lfreenect -lfreenect_sync -lfreenect -framework GLUT -framework OpenGL -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect0#
+
+CLd /myPrograms/OpenKinect/build/Release/OpenKinect normal x86_64
+s381630168.015409
+e381630168.040084
+r0
+xLd
+x/myPrograms/OpenKinect/build/Release/OpenKinect
+xnormal
+xx86_64
+old: duplicate symbol runBThread(void*) in /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o and /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o
+ocollect2: ld returned 1 exit status
+lSLF07#2@52"Link /myPrograms/OpenKinect/build/Release/OpenKinect381630168#381630168#0(348"ld: duplicate symbol runBThread(void*) in /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o and /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.ocollect2: ld returned 1 exit statusCommand /Developer/usr/bin/g++-4.2 failed with exit code 12(13@248"Duplicate symbol runBThread(void*) in /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o and /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o381630168#0#253#0(6@0"381630168#0#0#0#0#0"0(4@58"Command /Developer/usr/bin/g++-4.2 failed with exit code 1381630168#18446744073709551615#0#0(1@0"0(0#0#0"8646914304#860"    cd /myPrograms/OpenKinect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/OpenKinect/build/Release -L/libusb-7da756e/openC/libfreenect/build/lib/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Release -L/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug -L/libusb-7da756e/openC/libfreenect/build/lib -F/myPrograms/OpenKinect/build/Release -filelist /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList -mmacosx-version-min=10.6 -lHalf.6.0.0 -lIex.6.0.0 -lIlmImf.6.0.0 -lIlmThread.6.0.0 -lImath.6.0.0 -lfreenect -lfreenect_sync -lfreenect -lfreenect_sync -lfreenect -lfreenect -lfreenect_sync -lfreenect -framework GLUT -framework OpenGL -o /myPrograms/OpenKinect/build/Release/OpenKinect1#
+

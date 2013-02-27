@@ -1,0 +1,1069 @@
+TOpenKinect
+v7
+r0
+t381924196.815011
+cCheck dependencies
+cCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o /myPrograms/OpenKinect/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o /myPrograms/OpenKinect/QueueDemo.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o /myPrograms/OpenKinect/thread.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004D5A2790000000000001A494
+t1297754000
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004CC42BAC000000000000578C
+t1287924652
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004D5A2791000000000000DB14
+t1297754001
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/semaphore.h
+c000000004BBD2CE9000000000000046F
+t1270689001
+s1135
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004CC3DE680000000000004A1D
+t1287904872
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/timeb.h
+c000000004CC3DE6800000000000010C2
+t1287904872
+s4290
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004CC3DE680000000000002905
+t1287904872
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004A11EB24000000000000EA8F
+t1242688292
+s60047
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A11EB240000000000001538
+t1242688292
+s5432
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EB240000000000000C7E
+t1242688292
+s3198
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib
+c0000000050B61CE90000000000043B60
+t1354112233
+s277344
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib
+c0000000050B61CE9000000000001F130
+t1354112233
+s127280
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib
+c0000000050B620FD0000000000122540
+t1354113277
+s1189184
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib
+c0000000050B61CEA0000000000009610
+t1354112234
+s38416
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib
+c0000000050B61CEA0000000000009B00
+t1354112234
+s39680
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.a
+c00000000510A9B320000000000021D28
+t1359649586
+s138536
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib
+c00000000510E775C00000000000102E0
+t1359902556
+s66272
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect_sync.a
+c00000000510A9B330000000000006480
+t1359649587
+s25728
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect.dylib
+c00000000511020CB000000000000B998
+t1360011467
+s47512
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect_sync.dylib
+c0000000051125AF20000000000004F70
+t1360157426
+s20336
+
+N/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug/libfreenect.dylib
+c00000000510A9B320000000000005C88
+t1359649586
+s23688
+
+N/libusb-7da756e/openC/libfreenect/build/lib/libfreenect.dylib
+c00000000510A9ADC00000000000113F0
+t1359649500
+s70640
+
+N/libusb-7da756e/openC/libfreenect/build/lib/libfreenect_sync.dylib
+c00000000510A9ADD0000000000004F70
+t1359649501
+s20336
+
+N/libusb-7da756e/openC/libfreenect/include/libfreenect.h
+c00000000510A897A0000000000005F6E
+t1359645050
+s24430
+i<stdint.h>
+i<winsock.h>
+i<sys/time.h>
+
+N/libusb-7da756e/openC/libfreenect/wrappers/c_sync/libfreenect_sync.h
+c00000000510A897A0000000000000D33
+t1359645050
+s3379
+i<libfreenect.h>
+i<stdint.h>
+
+N/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp
+c00000000510A897A00000000000021F6
+t1359645050
+s8694
+i<libfreenect.h>
+i<stdexcept>
+i<map>
+i<pthread.h>
+
+N/myPrograms/OpenKinect/Base.h
+c000000004D5E63820000000000000FAA
+t1298031490
+s4010
+i<stdlib.h>
+
+N/myPrograms/OpenKinect/Queue.h
+c00000000511025700000000000000832
+t1360012656
+s2098
+
+N/myPrograms/OpenKinect/QueueDemo.cpp
+c00000000510FE9AD0000000000000BE0
+t1359997357
+s3040
+i"Queue.h"
+
+N/myPrograms/OpenKinect/TSQueue.h
+c00000000510EFF440000000000003B23
+t1359937348
+s15139
+i<deque>
+i<iterator>
+i<semaphore.h>
+i<pthread.h>
+i<errno.h>
+i<string.h>
+i"Base.h"
+i<sys/time.h>
+
+N/myPrograms/OpenKinect/build/Debug/OpenKinect
+t2
+s0
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/OpenKinect.LinkFileList
+c0000000051137BE40000000000000127
+t1360231396
+s295
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o
+t1360231396
+s1200
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o
+t2
+s0
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList
+c0000000051102050000000000000012D
+t1360011344
+s301
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o
+t1360012657
+s1404
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o
+t1360012658
+s162600
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o
+t1359937425
+s40164
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o
+t1360011344
+s9000
+
+N/myPrograms/OpenKinect/main.cpp
+c0000000051137BCF00000000000038DB
+t1360231375
+s14555
+i"libfreenect.hpp"
+i"libfreenect.h"
+i"libfreenect_sync.h"
+i<pthread.h>
+i<exception>
+i<ImfInputFile.h>
+i<ImfRgbaFile.h>
+i<ImfChannelList.h>
+i<ImfFrameBuffer.h>
+i<half.h>
+i"thread.h"
+i"Queue.h"
+i<stdio.h>
+i<string>
+i<iostream>
+i<cmath>
+i<vector>
+i<GLUT/glut.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/glut.h>
+i<GL/gl.h>
+i<GL/glu.h>
+i<sys/time.h>
+i<sys/timeb.h>
+
+N/myPrograms/OpenKinect/queue.h
+c00000000510ECD7000000000000007B4
+t1359924592
+s1972
+i<pthread.h>
+i<stdlib.h>
+i<list>
+
+N/myPrograms/OpenKinect/testTSQueue.cpp
+c00000000510EFF8200000000000007B8
+t1359937410
+s1976
+i<time.h>
+i<algorithm>
+i<TSQueue.h>
+
+N/myPrograms/OpenKinect/thread.cpp
+c00000000510710CE000000000000069B
+t1359417550
+s1691
+i"thread.h"
+
+N/myPrograms/OpenKinect/thread.h
+c00000000510710CE0000000000000429
+t1359417550
+s1065
+i<pthread.h>
+
+N/opt/local/include/FLAC/assert.h
+c000000004F75CF4200000000000007B9
+t1333120834
+s1977
+i<assert.h>
+
+N/opt/local/include/OpenEXR/IexBaseExc.h
+c000000004E3C024B0000000000001F93
+t1312555595
+s8083
+i<string>
+i<exception>
+i<sstream>
+
+N/opt/local/include/OpenEXR/ImathBox.h
+c000000004E3C024C0000000000003CA8
+t1312555596
+s15528
+i"ImathVec.h"
+
+N/opt/local/include/OpenEXR/ImathExc.h
+c000000004E3C024C0000000000000AC6
+t1312555596
+s2758
+i"IexBaseExc.h"
+
+N/opt/local/include/OpenEXR/ImathInt64.h
+c000000004E3C024C000000000000093B
+t1312555596
+s2363
+i<limits.h>
+
+N/opt/local/include/OpenEXR/ImathLimits.h
+c000000004E3C024C0000000000001EAF
+t1312555596
+s7855
+i<float.h>
+i<limits.h>
+
+N/opt/local/include/OpenEXR/ImathMath.h
+c000000004E3C024C0000000000001C57
+t1312555596
+s7255
+i"ImathPlatform.h"
+i"ImathLimits.h"
+i<math.h>
+
+N/opt/local/include/OpenEXR/ImathPlatform.h
+c000000004E3C024C0000000000000CEB
+t1312555596
+s3307
+i<math.h>
+
+N/opt/local/include/OpenEXR/ImathVec.h
+c000000004E3C024C000000000000AE70
+t1312555596
+s44656
+i"ImathExc.h"
+i"ImathLimits.h"
+i"ImathMath.h"
+i<iostream>
+
+N/opt/local/include/OpenEXR/ImfChannelList.h
+c000000005021B7B50000000000002C43
+t1344386997
+s11331
+i<ImfName.h>
+i<ImfPixelType.h>
+i<map>
+i<set>
+i<string>
+
+N/opt/local/include/OpenEXR/ImfCompression.h
+c000000005021B7B50000000000000AD0
+t1344386997
+s2768
+
+N/opt/local/include/OpenEXR/ImfFrameBuffer.h
+c000000005021B7B5000000000000244E
+t1344386997
+s9294
+i<ImfName.h>
+i<ImfPixelType.h>
+i<map>
+i<string>
+
+N/opt/local/include/OpenEXR/ImfHeader.h
+c000000005021B7B50000000000004248
+t1344386997
+s16968
+i<ImfLineOrder.h>
+i<ImfCompression.h>
+i<ImfName.h>
+i<ImfTileDescription.h>
+i<ImfInt64.h>
+i"ImathVec.h"
+i"ImathBox.h"
+i"IexBaseExc.h"
+i<map>
+i<iosfwd>
+i<string>
+
+N/opt/local/include/OpenEXR/ImfInputFile.h
+c000000005021B7B50000000000001BE9
+t1344386997
+s7145
+i<ImfHeader.h>
+i<ImfFrameBuffer.h>
+i<ImfTiledOutputFile.h>
+i<string>
+i<fstream>
+i<ImfThreading.h>
+
+N/opt/local/include/OpenEXR/ImfInt64.h
+c000000005021B7B50000000000000882
+t1344386997
+s2178
+i"ImathInt64.h"
+
+N/opt/local/include/OpenEXR/ImfLineOrder.h
+c000000005021B7B50000000000000960
+t1344386997
+s2400
+
+N/opt/local/include/OpenEXR/ImfName.h
+c000000005021B7B50000000000000DC8
+t1344386997
+s3528
+i<string.h>
+
+N/opt/local/include/OpenEXR/ImfPixelType.h
+c000000005021B7B50000000000000908
+t1344386997
+s2312
+
+N/opt/local/include/OpenEXR/ImfRgba.h
+c000000005021B7B50000000000000BFB
+t1344386997
+s3067
+i"half.h"
+
+N/opt/local/include/OpenEXR/ImfRgbaFile.h
+c000000005021B7B50000000000002C25
+t1344386997
+s11301
+i<ImfHeader.h>
+i<ImfFrameBuffer.h>
+i<ImfRgba.h>
+i"ImathVec.h"
+i"ImathBox.h"
+i"half.h"
+i<ImfThreading.h>
+i<string>
+
+N/opt/local/include/OpenEXR/ImfThreading.h
+c000000005021B7B5000000000000107C
+t1344386997
+s4220
+
+N/opt/local/include/OpenEXR/ImfTileDescription.h
+c000000005021B7B50000000000000C2F
+t1344386997
+s3119
+
+N/opt/local/include/OpenEXR/ImfTiledOutputFile.h
+c000000005021B7B500000000000043B7
+t1344386997
+s17335
+i<ImfHeader.h>
+i<ImfFrameBuffer.h>
+i"ImathBox.h"
+i<ImfTileDescription.h>
+i<ImfThreading.h>
+
+N/opt/local/include/OpenEXR/half.h
+c000000004E3C024B000000000000451F
+t1312555595
+s17695
+i<iostream>
+
+N/opt/local/include/jack/thread.h
+c0000000051136A1900000000000011CD
+t1360226841
+s4557
+i<pthread.h>
+i<jack/weakmacros.h>
+
+N/opt/local/include/opencv2/calib3d/calib3d.hpp
+c00000000507F376A00000000000092FD
+t1350514538
+s37629
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+
+N/opt/local/include/opencv2/contrib/contrib.hpp
+c000000005081DA4F0000000000009636
+t1350687311
+s38454
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/contrib/retina.hpp"
+i"opencv2/contrib/openfabmap.hpp"
+
+N/opt/local/include/opencv2/contrib/openfabmap.hpp
+c000000005053B5CC0000000000003207
+t1347663308
+s12807
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i<vector>
+i<list>
+i<map>
+i<set>
+i<valarray>
+
+N/opt/local/include/opencv2/contrib/retina.hpp
+c00000000507F376A0000000000005DFA
+t1350514538
+s24058
+i"opencv2/core/core.hpp"
+i<valarray>
+
+N/opt/local/include/opencv2/core/core.hpp
+c000000005089C351000000000002CBF3
+t1351205713
+s183283
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<cstddef>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i<sstream>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/opt/local/include/opencv2/core/core_c.h
+c00000000501079620000000000013298
+t1343256930
+s78488
+i"opencv2/core/types_c.h"
+
+N/opt/local/include/opencv2/core/mat.hpp
+c00000000503D4C4A0000000000013923
+t1346194506
+s80163
+i<limits.h>
+i<string.h>
+
+N/opt/local/include/opencv2/core/operations.hpp
+c000000005093E0E7000000000001F6AA
+t1351868647
+s128682
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i<limits>
+
+N/opt/local/include/opencv2/core/types_c.h
+c0000000050107962000000000000E0BE
+t1343256930
+s57534
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+i"tegra_round.hpp"
+i"emmintrin.h"
+
+N/opt/local/include/opencv2/core/version.hpp
+c000000005093E0E700000000000009EA
+t1351868647
+s2538
+
+N/opt/local/include/opencv2/features2d/features2d.hpp
+c000000005081DA4F000000000000F899
+t1350687311
+s63641
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i<limits>
+
+N/opt/local/include/opencv2/flann/config.h
+c000000005010796200000000000006FD
+t1343256930
+s1789
+
+N/opt/local/include/opencv2/flann/defines.h
+c000000005064D94A000000000000124B
+t1348786506
+s4683
+i"config.h"
+
+N/opt/local/include/opencv2/flann/miniflann.hpp
+c00000000507F376A0000000000001785
+t1350514538
+s6021
+i"opencv2/core/core.hpp"
+i"opencv2/flann/defines.h"
+
+N/opt/local/include/opencv2/highgui/highgui.hpp
+c00000000507F376A00000000000023B4
+t1350514538
+s9140
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/opt/local/include/opencv2/highgui/highgui_c.h
+c00000000507F376A00000000000065A3
+t1350514538
+s26019
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/imgproc/imgproc.hpp
+c000000005081DA4F000000000000D6EA
+t1350687311
+s55018
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/imgproc/imgproc_c.h
+c00000000507F376A000000000000767F
+t1350514538
+s30335
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/imgproc/types_c.h
+c000000005081DA4F0000000000003EB4
+t1350687311
+s16052
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/ml/ml.hpp
+c000000005081DA4F0000000000013122
+t1350687311
+s78114
+i"opencv2/core/core.hpp"
+i<limits.h>
+i<map>
+i<string>
+i<iostream>
+
+N/opt/local/include/opencv2/objdetect/objdetect.hpp
+c000000005081DA4F00000000000091B7
+t1350687311
+s37303
+i"opencv2/core/core.hpp"
+i<map>
+i<deque>
+
+N/opt/local/include/opencv2/opencv.hpp
+c00000000501079620000000000000ABF
+t1343256930
+s2751
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/photo/photo.hpp"
+i"opencv2/video/video.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/ml/ml.hpp"
+i"opencv2/highgui/highgui_c.h"
+i"opencv2/highgui/highgui.hpp"
+i"opencv2/contrib/contrib.hpp"
+
+N/opt/local/include/opencv2/photo/photo.hpp
+c00000000505B9EC90000000000000F9D
+t1348181705
+s3997
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/photo/photo_c.h"
+
+N/opt/local/include/opencv2/photo/photo_c.h
+c00000000507F376A0000000000000A57
+t1350514538
+s2647
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/video/background_segm.hpp
+c00000000502985CB0000000000002A72
+t1344898507
+s10866
+i"opencv2/core/core.hpp"
+i<list>
+
+N/opt/local/include/opencv2/video/tracking.hpp
+c00000000507F376A00000000000045D7
+t1350514538
+s17879
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+
+N/opt/local/include/opencv2/video/video.hpp
+c00000000501079630000000000000970
+t1343256931
+s2416
+i"opencv2/video/tracking.hpp"
+i"opencv2/video/background_segm.hpp"
+
+N/opt/local/lib/libopencv_calib3d.2.4.dylib
+c000000005105949500000000000BE428
+t1359320213
+s779304
+
+N/opt/local/lib/libopencv_contrib.dylib
+c00000000510594A300000000001021E0
+t1359320227
+s1057248
+
+N/opt/local/lib/libopencv_core.2.4.dylib
+c0000000051059454000000000026D890
+t1359320148
+s2545808
+
+N/opt/local/lib/libopencv_features2d.dylib
+c000000005105948600000000000CE388
+t1359320198
+s844680
+
+N/opt/local/lib/libopencv_flann.dylib
+c000000005105946200000000000985A0
+t1359320162
+s624032
+
+N/opt/local/lib/libopencv_gpu.dylib
+c00000000510594AF0000000000030378
+t1359320239
+s197496
+
+N/opt/local/lib/libopencv_highgui.2.4.3.dylib
+c000000005105947900000000000AA590
+t1359320185
+s697744
+
+N/opt/local/lib/libopencv_imgproc.2.4.dylib
+c00000000510594710000000000256A28
+t1359320177
+s2452008
+
+N/opt/local/lib/libopencv_legacy.dylib
+c00000000510594AA0000000000139670
+t1359320234
+s1283696
+
+N/opt/local/lib/libopencv_ml.dylib
+c00000000510594610000000000084F68
+t1359320161
+s544616
+
+N/opt/local/lib/libopencv_nonfree.dylib
+c000000005105948A000000000001F0E8
+t1359320202
+s127208
+
+N/opt/local/lib/libopencv_objdetect.dylib
+c0000000051059484000000000009A1F8
+t1359320196
+s631288
+
+N/opt/local/lib/libopencv_photo.2.4.dylib
+c00000000510594740000000000021F40
+t1359320180
+s139072
+
+N/opt/local/lib/libopencv_stitching.dylib
+c00000000510594BD00000000000A3278
+t1359320253
+s668280
+
+N/opt/local/lib/libopencv_ts.dylib
+c000000005105949100000000000BF4F8
+t1359320209
+s783608
+
+N/opt/local/lib/libopencv_video.2.4.3.dylib
+c00000000510594770000000000049B50
+t1359320183
+s301904
+
+N/opt/local/lib/libopencv_videostab.dylib
+c00000000510594B80000000000047BC8
+t1359320248
+s293832
+
+N/usr/local/include/OpenEXR/ImfChannelList.h
+c0000000050B620FF0000000000002C43
+t1354113279
+s11331
+
+N/usr/local/include/OpenEXR/ImfFrameBuffer.h
+c0000000050B620FF000000000000244E
+t1354113279
+s9294
+
+N/usr/local/include/OpenEXR/ImfInputFile.h
+c0000000050B620FF0000000000001BE9
+t1354113279
+s7145
+
+N/usr/local/include/OpenEXR/ImfRgbaFile.h
+c0000000050B620FF0000000000002C25
+t1354113279
+s11301
+
+N/usr/local/include/OpenEXR/half.h
+c0000000050B61CE9000000000000451F
+t1354112233
+s17695
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies381924196#381924196#0(0"0(0#1#0"8638762176#0"0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o /myPrograms/OpenKinect/QueueDemo.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381924196.135035
+e381924196.194152
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o
+x/myPrograms/OpenKinect/QueueDemo.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /myPrograms/OpenKinect/QueueDemo.cpp381924196#381924196#0(0"0(0#0#36"/myPrograms/OpenKinect/QueueDemo.cpp8631154720#3771"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/opt/local/include/cppunit -I/opt/local/include/db46 -I/opt/local/include/dirac -I/opt/local/include/editline -I/opt/local/include/FLAC -I/opt/local/include/FLAC++ -I/opt/local/include/freetype2 -I/opt/local/include/jack -I/opt/local/include/lame -I/opt/local/include/libavcodec -I/opt/local/include/libavdevice -I/opt/local/include/libavfilter -I/opt/local/include/libavformat -I/opt/local/include/libavutil -I/opt/local/include/libexslt -I/opt/local/include/libltdl -I/opt/local/include/libmodplug -I/opt/local/include/libpng15 -I/opt/local/include/libpostproc -I/opt/local/include/libswresample -I/opt/local/include/libswscale -I/opt/local/include/libusb-1.0 -I/opt/local/include/libxml2 -I/opt/local/include/libxslt -I/opt/local/include/libyasm -I/opt/local/include/lzma -I/opt/local/include/ogg -I/opt/local/include/opencv -I/opt/local/include/opencv2 -I/opt/local/include/OpenEXR -I/opt/local/include/openjpeg-1.5 -I/opt/local/include/openssl -I/opt/local/include/opus -I/opt/local/include/orc-0.4 -I/opt/local/include/schroedinger-1.0 -I/opt/local/include/SDL -I/opt/local/include/speex -I/opt/local/include/theora -I/opt/local/include/vorbis -I/opt/local/include/vpx -I/opt/local/include/X11 -I/opt/local/include/xcb -I/opt/local/include/cppunit/config -I/opt/local/include/cppunit/extensions -I/opt/local/include/cppunit/plugin -I/opt/local/include/cppunit/portability -I/opt/local/include/cppunit/tools -I/opt/local/include/cppunit/ui -I/opt/local/include/dirac/libdirac_common -I/opt/local/include/dirac/libdirac_decoder -I/opt/local/include/dirac/libdirac_encoder -I/opt/local/include/freetype2/freetype -I/opt/local/include/libxml2/libxml -I/opt/local/include/opencv2/calib3d -I/opt/local/include/opencv2/contrib -I/opt/local/include/opencv2/core -I/opt/local/include/opencv2/features2d -I/opt/local/include/opencv2/flann -I/opt/local/include/opencv2/gpu -I/opt/local/include/opencv2/highgui -I/opt/local/include/opencv2/imgproc -I/opt/local/include/opencv2/legacy -I/opt/local/include/opencv2/ml -I/opt/local/include/opencv2/nonfree -I/opt/local/include/opencv2/objdetect -I/opt/local/include/opencv2/photo -I/opt/local/include/opencv2/stitching -I/opt/local/include/opencv2/ts -I/opt/local/include/opencv2/video -I/opt/local/include/opencv2/videostab -I/opt/local/include/orc-0.4/orc -I/opt/local/include/orc-0.4/orc-test -I/opt/local/include/schroedinger-1.0/schroedinger -I/opt/local/include/X11/extensions -I/opt/local/include/X11/Xtrans -I/opt/local/include/cppunit/ui/mfc -I/opt/local/include/cppunit/ui/qt -I/opt/local/include/cppunit/ui/text -I/opt/local/include/freetype2/freetype/config -I/opt/local/include/opencv2/gpu/device -I/opt/local/include/opencv2/stitching/detail -I/opt/local/include/opencv2/gpu/device/detail -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/i386 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/QueueDemo.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o /myPrograms/OpenKinect/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381924196.133362
+e381924196.814938
+r0
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o
+x/myPrograms/OpenKinect/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar:52,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h:46,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd:49,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h:70,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h:46,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string:47,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept:44,
+o                 from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp:30,
+o                 from /myPrograms/OpenKinect/main.cpp:31:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:66: error: '::clock_t' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:68: error: '::tm' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:70: error: '::clock' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:71: error: '::difftime' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:72: error: '::mktime' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:73: error: '::time' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:74: error: '::asctime' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:75: error: '::ctime' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:76: error: '::gmtime' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:77: error: '::localtime' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:78: error: '::strftime' has not been declared
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/locale:46,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/istream.tcc:46,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/istream:845,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/sstream:44,
+o                 from /opt/local/include/OpenEXR/IexBaseExc.h:50,
+o                 from /opt/local/include/OpenEXR/ImathExc.h:47,
+o                 from /opt/local/include/OpenEXR/ImathVec.h:46,
+o                 from /opt/local/include/OpenEXR/ImfHeader.h:51,
+o                 from /opt/local/include/OpenEXR/ImfInputFile.h:46,
+o                 from /myPrograms/OpenKinect/main.cpp:38:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc: In member function '_InIter std::time_get<_CharT, _InIter>::_M_extract_via_format(_InIter, _InIter, std::ios_base&, std::_Ios_Iostate&, tm*, const _CharT*) const':
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1839: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1846: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1854: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1861: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1873: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1880: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1883: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1895: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1900: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1908: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1912: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1932: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1968: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1976: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc: In member function 'virtual _InIter std::time_get<_CharT, _InIter>::do_get_weekday(_InIter, _InIter, std::ios_base&, std::_Ios_Iostate&, tm*) const':
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:2210: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc: In member function 'virtual _InIter std::time_get<_CharT, _InIter>::do_get_monthname(_InIter, _InIter, std::ios_base&, std::_Ios_Iostate&, tm*) const':
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:2259: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc: In member function 'virtual _InIter std::time_get<_CharT, _InIter>::do_get_year(_InIter, _InIter, std::ios_base&, std::_Ios_Iostate&, tm*) const':
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:2288: error: invalid use of incomplete type 'struct tm'
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'
+o/myPrograms/OpenKinect/main.cpp: In function 'void DrawGLScene()':
+o/myPrograms/OpenKinect/main.cpp:352: warning: unused variable 'redrawVideo'
+lSLF07#2@39"Compile /myPrograms/OpenKinect/main.cpp381924196#381924196#0(7636"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar:52,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h:46,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd:49,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h:70,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h:46,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string:47,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept:44,                 from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp:30,                 from /myPrograms/OpenKinect/main.cpp:31:/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:66: error: '::clock_t' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:68: error: '::tm' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:70: error: '::clock' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:71: error: '::difftime' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:72: error: '::mktime' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:73: error: '::time' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:74: error: '::asctime' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:75: error: '::ctime' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:76: error: '::gmtime' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:77: error: '::localtime' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime:78: error: '::strftime' has not been declaredIn file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/locale:46,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/istream.tcc:46,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/istream:845,                 from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/sstream:44,                 from /opt/local/include/OpenEXR/IexBaseExc.h:50,                 from /opt/local/include/OpenEXR/ImathExc.h:47,                 from /opt/local/include/OpenEXR/ImathVec.h:46,                 from /opt/local/include/OpenEXR/ImfHeader.h:51,                 from /opt/local/include/OpenEXR/ImfInputFile.h:46,                 from /myPrograms/OpenKinect/main.cpp:38:/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc: In member function '_InIter std::time_get<_CharT, _InIter>::_M_extract_via_format(_InIter, _InIter, std::ios_base&, std::_Ios_Iostate&, tm*, const _CharT*) const':/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1839: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1846: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1854: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1861: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1873: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1880: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1883: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1895: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1900: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1908: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1912: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1932: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1968: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:1976: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc: In member function 'virtual _InIter std::time_get<_CharT, _InIter>::do_get_weekday(_InIter, _InIter, std::ios_base&, std::_Ios_Iostate&, tm*) const':/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:2210: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc: In member function 'virtual _InIter std::time_get<_CharT, _InIter>::do_get_monthname(_InIter, _InIter, std::ios_base&, std::_Ios_Iostate&, tm*) const':/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:2259: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc: In member function 'virtual _InIter std::time_get<_CharT, _InIter>::do_get_year(_InIter, _InIter, std::ios_base&, std::_Ios_Iostate&, tm*) const':/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc:2288: error: invalid use of incomplete type 'struct tm'/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h:152: error: forward declaration of 'struct tm'/myPrograms/OpenKinect/main.cpp: In function 'void DrawGLScene()':/myPrograms/OpenKinect/main.cpp:352: warning: unused variable 'redrawVideo'46(4@33"'::clock_t' has not been declared381924196#786#104#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@95"'::clock_t' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#66#0#66#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#66#0#66#0#25"'*' has not been declared0(4@28"'::tm' has not been declared381924196#890#99#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@90"'::tm' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#68#0#68#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#68#0#68#0#25"'*' has not been declared0(4@31"'::clock' has not been declared381924196#989#102#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@93"'::clock' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#70#0#70#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#70#0#70#0#25"'*' has not been declared0(4@34"'::difftime' has not been declared381924196#1091#105#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@96"'::difftime' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#71#0#71#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#71#0#71#0#25"'*' has not been declared0(4@32"'::mktime' has not been declared381924196#1196#103#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@94"'::mktime' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#72#0#72#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#72#0#72#0#25"'*' has not been declared0(4@30"'::time' has not been declared381924196#1299#101#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@92"'::time' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#73#0#73#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#73#0#73#0#25"'*' has not been declared0(4@33"'::asctime' has not been declared381924196#1400#104#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@95"'::asctime' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#74#0#74#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#74#0#74#0#25"'*' has not been declared0(4@31"'::ctime' has not been declared381924196#1504#102#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@93"'::ctime' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#75#0#75#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#75#0#75#0#25"'*' has not been declared0(4@32"'::gmtime' has not been declared381924196#1606#103#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@94"'::gmtime' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#76#0#76#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#76#0#76#0#25"'*' has not been declared0(4@35"'::localtime' has not been declared381924196#1709#106#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@97"'::localtime' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#77#0#77#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#77#0#77#0#25"'*' has not been declared0(4@34"'::strftime' has not been declared381924196#1815#105#10(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#31#0#31#0#0"0(7@84"In file included from /libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381924196#18446744073709551615#0#0(6@62"/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp381337850#30#0#30#0#0"0(7@84"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept381924196#18446744073709551615#0#0(6@62"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/stdexcept309596157#44#0#44#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/string309596157#47#0#47#0#0"0(7@93"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h381924196#18446744073709551615#0#0(6@71"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/char_traits.h309596155#46#0#46#0#0"0(7@94"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h381924196#18446744073709551615#0#0(6@72"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/stl_algobase.h309596155#70#0#70#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/iosfwd309596157#49#0#49#0#0"0(7@90"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h381924196#18446744073709551615#0#0(6@68"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/postypes.h309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/cwchar309596157#52#0#52#0#0"0(13@96"'::strftime' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime381924196#18446744073709551615#0#0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#78#0#78#0#0"0(6@58"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/ctime309596157#78#0#78#0#25"'*' has not been declared0(4@42"Invalid use of incomplete type 'struct tm'381924196#2903#132#11(7@53"In file included from /myPrograms/OpenKinect/main.cpp381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#38#0#38#0#0"0(7@63"In file included from /opt/local/include/OpenEXR/ImfInputFile.h381924196#18446744073709551615#0#0(6@41"/opt/local/include/OpenEXR/ImfInputFile.h366079797#46#0#46#0#0"0(7@60"In file included from /opt/local/include/OpenEXR/ImfHeader.h381924196#18446744073709551615#0#0(6@38"/opt/local/include/OpenEXR/ImfHeader.h366079797#51#0#51#0#0"0(7@59"In file included from /opt/local/include/OpenEXR/ImathVec.h381924196#18446744073709551615#0#0(6@37"/opt/local/include/OpenEXR/ImathVec.h334248396#46#0#46#0#0"0(7@59"In file included from /opt/local/include/OpenEXR/ImathExc.h381924196#18446744073709551615#0#0(6@37"/opt/local/include/OpenEXR/ImathExc.h334248396#47#0#47#0#0"0(7@61"In file included from /opt/local/include/OpenEXR/IexBaseExc.h381924196#18446744073709551615#0#0(6@39"/opt/local/include/OpenEXR/IexBaseExc.h334248395#50#0#50#0#0"0(7@82"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/sstream381924196#18446744073709551615#0#0(6@60"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/sstream309596157#44#0#44#0#0"0(7@82"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/istream381924196#18446744073709551615#0#0(6@60"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/istream309596157#845#0#845#0#0"0(7@91"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/istream.tcc381924196#18446744073709551615#0#0(6@69"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/istream.tcc309596155#46#0#46#0#0"0(7@81"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/locale381924196#18446744073709551615#0#0(6@59"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/locale309596157#46#0#46#0#0"0(13@121"Invalid use of incomplete type 'struct tm' in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc381924196#18446744073709551615#0#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1839#0#1839#0#0"0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1839#0#1839#0#0"0(4@34"Forward declaration of 'struct tm'381924196#3035#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#3133#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1846#0#1846#0#0"0(4@34"Forward declaration of 'struct tm'381924196#3265#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#3363#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1854#0#1854#0#0"0(4@34"Forward declaration of 'struct tm'381924196#3495#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#3593#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1861#0#1861#0#0"0(4@34"Forward declaration of 'struct tm'381924196#3725#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#3823#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1873#0#1873#0#0"0(4@34"Forward declaration of 'struct tm'381924196#3955#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#4053#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1880#0#1880#0#0"0(4@34"Forward declaration of 'struct tm'381924196#4185#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#4283#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1883#0#1883#0#0"0(4@34"Forward declaration of 'struct tm'381924196#4415#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#4513#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1895#0#1895#0#0"0(4@34"Forward declaration of 'struct tm'381924196#4645#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#4743#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1900#0#1900#0#0"0(4@34"Forward declaration of 'struct tm'381924196#4875#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#4973#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1908#0#1908#0#0"0(4@34"Forward declaration of 'struct tm'381924196#5105#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#5203#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1912#0#1912#0#0"0(4@34"Forward declaration of 'struct tm'381924196#5335#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#5433#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1932#0#1932#0#0"0(4@34"Forward declaration of 'struct tm'381924196#5565#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#5663#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1968#0#1968#0#0"0(4@34"Forward declaration of 'struct tm'381924196#5795#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#5893#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#1976#0#1976#0#0"0(4@34"Forward declaration of 'struct tm'381924196#6025#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#6350#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#2210#0#2210#0#0"0(4@34"Forward declaration of 'struct tm'381924196#6482#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#6809#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#2259#0#2259#0#0"0(4@34"Forward declaration of 'struct tm'381924196#6941#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(4@42"Invalid use of incomplete type 'struct tm'381924196#7263#132#0(6@75"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/bits/locale_facets.tcc309596155#2288#0#2288#0#0"0(4@34"Forward declaration of 'struct tm'381924196#7395#98#0(6@50"/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h292381801#152#0#152#0#0"0(22@29"Unused variable 'redrawVideo'381924196#7560#76#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#352#0#352#0#19"unused variable '*'0(0#0#31"/myPrograms/OpenKinect/main.cpp8631689568#3761"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/opt/local/include/cppunit -I/opt/local/include/db46 -I/opt/local/include/dirac -I/opt/local/include/editline -I/opt/local/include/FLAC -I/opt/local/include/FLAC++ -I/opt/local/include/freetype2 -I/opt/local/include/jack -I/opt/local/include/lame -I/opt/local/include/libavcodec -I/opt/local/include/libavdevice -I/opt/local/include/libavfilter -I/opt/local/include/libavformat -I/opt/local/include/libavutil -I/opt/local/include/libexslt -I/opt/local/include/libltdl -I/opt/local/include/libmodplug -I/opt/local/include/libpng15 -I/opt/local/include/libpostproc -I/opt/local/include/libswresample -I/opt/local/include/libswscale -I/opt/local/include/libusb-1.0 -I/opt/local/include/libxml2 -I/opt/local/include/libxslt -I/opt/local/include/libyasm -I/opt/local/include/lzma -I/opt/local/include/ogg -I/opt/local/include/opencv -I/opt/local/include/opencv2 -I/opt/local/include/OpenEXR -I/opt/local/include/openjpeg-1.5 -I/opt/local/include/openssl -I/opt/local/include/opus -I/opt/local/include/orc-0.4 -I/opt/local/include/schroedinger-1.0 -I/opt/local/include/SDL -I/opt/local/include/speex -I/opt/local/include/theora -I/opt/local/include/vorbis -I/opt/local/include/vpx -I/opt/local/include/X11 -I/opt/local/include/xcb -I/opt/local/include/cppunit/config -I/opt/local/include/cppunit/extensions -I/opt/local/include/cppunit/plugin -I/opt/local/include/cppunit/portability -I/opt/local/include/cppunit/tools -I/opt/local/include/cppunit/ui -I/opt/local/include/dirac/libdirac_common -I/opt/local/include/dirac/libdirac_decoder -I/opt/local/include/dirac/libdirac_encoder -I/opt/local/include/freetype2/freetype -I/opt/local/include/libxml2/libxml -I/opt/local/include/opencv2/calib3d -I/opt/local/include/opencv2/contrib -I/opt/local/include/opencv2/core -I/opt/local/include/opencv2/features2d -I/opt/local/include/opencv2/flann -I/opt/local/include/opencv2/gpu -I/opt/local/include/opencv2/highgui -I/opt/local/include/opencv2/imgproc -I/opt/local/include/opencv2/legacy -I/opt/local/include/opencv2/ml -I/opt/local/include/opencv2/nonfree -I/opt/local/include/opencv2/objdetect -I/opt/local/include/opencv2/photo -I/opt/local/include/opencv2/stitching -I/opt/local/include/opencv2/ts -I/opt/local/include/opencv2/video -I/opt/local/include/opencv2/videostab -I/opt/local/include/orc-0.4/orc -I/opt/local/include/orc-0.4/orc-test -I/opt/local/include/schroedinger-1.0/schroedinger -I/opt/local/include/X11/extensions -I/opt/local/include/X11/Xtrans -I/opt/local/include/cppunit/ui/mfc -I/opt/local/include/cppunit/ui/qt -I/opt/local/include/cppunit/ui/text -I/opt/local/include/freetype2/freetype/config -I/opt/local/include/opencv2/gpu/device -I/opt/local/include/opencv2/stitching/detail -I/opt/local/include/opencv2/gpu/device/detail -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/i386 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/main.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o1#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o /myPrograms/OpenKinect/thread.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381924196.194245
+e381924196.233885
+r0
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o
+x/myPrograms/OpenKinect/thread.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /myPrograms/OpenKinect/thread.h:26,
+o                 from /myPrograms/OpenKinect/thread.cpp:23:
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:250: error: 'size_t' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:259: error: 'size_t' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:263: error: 'size_t' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:267: error: 'size_t' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:276: error: 'size_t' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:279: error: 'size_t' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:364: error: 'size_t' has not been declared
+o/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:371: error: 'size_t' does not name a type
+o/myPrograms/OpenKinect/thread.cpp: In member function 'int Thread::start()':
+o/myPrograms/OpenKinect/thread.cpp:44: error: 'NULL' was not declared in this scope
+o/myPrograms/OpenKinect/thread.cpp: In member function 'int Thread::join()':
+o/myPrograms/OpenKinect/thread.cpp:55: error: 'NULL' was not declared in this scope
+lSLF07#2@41"Compile /myPrograms/OpenKinect/thread.cpp381924196#381924196#0(1204"In file included from /myPrograms/OpenKinect/thread.h:26,                 from /myPrograms/OpenKinect/thread.cpp:23:/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:250: error: 'size_t' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:259: error: 'size_t' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:263: error: 'size_t' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:267: error: 'size_t' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:276: error: 'size_t' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:279: error: 'size_t' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:364: error: 'size_t' has not been declared/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h:371: error: 'size_t' does not name a type/myPrograms/OpenKinect/thread.cpp: In member function 'int Thread::start()':/myPrograms/OpenKinect/thread.cpp:44: error: 'NULL' was not declared in this scope/myPrograms/OpenKinect/thread.cpp: In member function 'int Thread::join()':/myPrograms/OpenKinect/thread.cpp:55: error: 'NULL' was not declared in this scope10(4@30"'size_t' has not been declared381924196#118#96#3(7@55"In file included from /myPrograms/OpenKinect/thread.cpp381924196#18446744073709551615#0#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#23#0#23#0#0"0(7@53"In file included from /myPrograms/OpenKinect/thread.h381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/thread.h381110350#26#0#26#0#0"0(13@86"'size_t' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h381924196#18446744073709551615#0#0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#250#0#250#0#0"0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#250#0#250#0#25"'*' has not been declared0(4@30"'size_t' has not been declared381924196#214#96#3(7@55"In file included from /myPrograms/OpenKinect/thread.cpp381924196#18446744073709551615#0#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#23#0#23#0#0"0(7@53"In file included from /myPrograms/OpenKinect/thread.h381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/thread.h381110350#26#0#26#0#0"0(13@86"'size_t' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h381924196#18446744073709551615#0#0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#259#0#259#0#0"0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#259#0#259#0#25"'*' has not been declared0(4@30"'size_t' has not been declared381924196#310#96#3(7@55"In file included from /myPrograms/OpenKinect/thread.cpp381924196#18446744073709551615#0#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#23#0#23#0#0"0(7@53"In file included from /myPrograms/OpenKinect/thread.h381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/thread.h381110350#26#0#26#0#0"0(13@86"'size_t' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h381924196#18446744073709551615#0#0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#263#0#263#0#0"0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#263#0#263#0#25"'*' has not been declared0(4@30"'size_t' has not been declared381924196#406#96#3(7@55"In file included from /myPrograms/OpenKinect/thread.cpp381924196#18446744073709551615#0#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#23#0#23#0#0"0(7@53"In file included from /myPrograms/OpenKinect/thread.h381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/thread.h381110350#26#0#26#0#0"0(13@86"'size_t' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h381924196#18446744073709551615#0#0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#267#0#267#0#0"0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#267#0#267#0#25"'*' has not been declared0(4@30"'size_t' has not been declared381924196#502#96#3(7@55"In file included from /myPrograms/OpenKinect/thread.cpp381924196#18446744073709551615#0#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#23#0#23#0#0"0(7@53"In file included from /myPrograms/OpenKinect/thread.h381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/thread.h381110350#26#0#26#0#0"0(13@86"'size_t' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h381924196#18446744073709551615#0#0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#276#0#276#0#0"0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#276#0#276#0#25"'*' has not been declared0(4@30"'size_t' has not been declared381924196#598#96#3(7@55"In file included from /myPrograms/OpenKinect/thread.cpp381924196#18446744073709551615#0#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#23#0#23#0#0"0(7@53"In file included from /myPrograms/OpenKinect/thread.h381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/thread.h381110350#26#0#26#0#0"0(13@86"'size_t' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h381924196#18446744073709551615#0#0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#279#0#279#0#0"0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#279#0#279#0#25"'*' has not been declared0(4@30"'size_t' has not been declared381924196#694#96#3(7@55"In file included from /myPrograms/OpenKinect/thread.cpp381924196#18446744073709551615#0#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#23#0#23#0#0"0(7@53"In file included from /myPrograms/OpenKinect/thread.h381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/thread.h381110350#26#0#26#0#0"0(13@86"'size_t' has not been declared in /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h381924196#18446744073709551615#0#0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#364#0#364#0#0"0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#364#0#364#0#25"'*' has not been declared0(4@29"'size_t' does not name a type381924196#790#95#3(7@55"In file included from /myPrograms/OpenKinect/thread.cpp381924196#18446744073709551615#0#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#23#0#23#0#0"0(7@53"In file included from /myPrograms/OpenKinect/thread.h381924196#18446744073709551615#0#0(6@31"/myPrograms/OpenKinect/thread.h381110350#26#0#26#0#0"0(13@85"'size_t' does not name a type in /Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h381924196#18446744073709551615#0#0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#371#0#371#0#0"0(6@52"/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h292381801#371#0#371#0#24"'*' does not name a type0(4@37"'NULL' was not declared in this scope381924196#962#83#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#44#0#44#0#34"'*' was not declared in this scope0(4@37"'NULL' was not declared in this scope381924196#1121#83#0(6@33"/myPrograms/OpenKinect/thread.cpp381110350#55#0#55#0#34"'*' was not declared in this scope0(0#0#33"/myPrograms/OpenKinect/thread.cpp8643192064#3765"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/opt/local/include/cppunit -I/opt/local/include/db46 -I/opt/local/include/dirac -I/opt/local/include/editline -I/opt/local/include/FLAC -I/opt/local/include/FLAC++ -I/opt/local/include/freetype2 -I/opt/local/include/jack -I/opt/local/include/lame -I/opt/local/include/libavcodec -I/opt/local/include/libavdevice -I/opt/local/include/libavfilter -I/opt/local/include/libavformat -I/opt/local/include/libavutil -I/opt/local/include/libexslt -I/opt/local/include/libltdl -I/opt/local/include/libmodplug -I/opt/local/include/libpng15 -I/opt/local/include/libpostproc -I/opt/local/include/libswresample -I/opt/local/include/libswscale -I/opt/local/include/libusb-1.0 -I/opt/local/include/libxml2 -I/opt/local/include/libxslt -I/opt/local/include/libyasm -I/opt/local/include/lzma -I/opt/local/include/ogg -I/opt/local/include/opencv -I/opt/local/include/opencv2 -I/opt/local/include/OpenEXR -I/opt/local/include/openjpeg-1.5 -I/opt/local/include/openssl -I/opt/local/include/opus -I/opt/local/include/orc-0.4 -I/opt/local/include/schroedinger-1.0 -I/opt/local/include/SDL -I/opt/local/include/speex -I/opt/local/include/theora -I/opt/local/include/vorbis -I/opt/local/include/vpx -I/opt/local/include/X11 -I/opt/local/include/xcb -I/opt/local/include/cppunit/config -I/opt/local/include/cppunit/extensions -I/opt/local/include/cppunit/plugin -I/opt/local/include/cppunit/portability -I/opt/local/include/cppunit/tools -I/opt/local/include/cppunit/ui -I/opt/local/include/dirac/libdirac_common -I/opt/local/include/dirac/libdirac_decoder -I/opt/local/include/dirac/libdirac_encoder -I/opt/local/include/freetype2/freetype -I/opt/local/include/libxml2/libxml -I/opt/local/include/opencv2/calib3d -I/opt/local/include/opencv2/contrib -I/opt/local/include/opencv2/core -I/opt/local/include/opencv2/features2d -I/opt/local/include/opencv2/flann -I/opt/local/include/opencv2/gpu -I/opt/local/include/opencv2/highgui -I/opt/local/include/opencv2/imgproc -I/opt/local/include/opencv2/legacy -I/opt/local/include/opencv2/ml -I/opt/local/include/opencv2/nonfree -I/opt/local/include/opencv2/objdetect -I/opt/local/include/opencv2/photo -I/opt/local/include/opencv2/stitching -I/opt/local/include/opencv2/ts -I/opt/local/include/opencv2/video -I/opt/local/include/opencv2/videostab -I/opt/local/include/orc-0.4/orc -I/opt/local/include/orc-0.4/orc-test -I/opt/local/include/schroedinger-1.0/schroedinger -I/opt/local/include/X11/extensions -I/opt/local/include/X11/Xtrans -I/opt/local/include/cppunit/ui/mfc -I/opt/local/include/cppunit/ui/qt -I/opt/local/include/cppunit/ui/text -I/opt/local/include/freetype2/freetype/config -I/opt/local/include/opencv2/gpu/device -I/opt/local/include/opencv2/stitching/detail -I/opt/local/include/opencv2/gpu/device/detail -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/i386 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/thread.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o1#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o /myPrograms/OpenKinect/QueueDemo.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381705457.821503
+e381705457.853288
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o
+x/myPrograms/OpenKinect/QueueDemo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /myPrograms/OpenKinect/QueueDemo.cpp381705457#381705457#0(0"0(0#0#36"/myPrograms/OpenKinect/QueueDemo.cpp8616785760#1010"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/QueueDemo.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o /myPrograms/OpenKinect/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381705457.819939
+e381705458.463180
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o
+x/myPrograms/OpenKinect/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/myPrograms/OpenKinect/main.cpp: In member function 'virtual void* ImageWriter::run()':
+o/myPrograms/OpenKinect/main.cpp:167: warning: format '%d' expects type 'int', but argument 2 has type 'long int'
+o/myPrograms/OpenKinect/main.cpp: In function 'int main()':
+o/myPrograms/OpenKinect/main.cpp:255: warning: unused variable 'qs'
+lSLF07#2@39"Compile /myPrograms/OpenKinect/main.cpp381705457#381705458#0(327"/myPrograms/OpenKinect/main.cpp: In member function 'virtual void* ImageWriter::run()':/myPrograms/OpenKinect/main.cpp:167: warning: format '%d' expects type 'int', but argument 2 has type 'long int'/myPrograms/OpenKinect/main.cpp: In function 'int main()':/myPrograms/OpenKinect/main.cpp:255: warning: unused variable 'qs'2(22@66"Format '%d' expects type 'int', but argument 2 has type 'long int'381705458#88#113#0(6@31"/myPrograms/OpenKinect/main.cpp381705250#167#0#167#0#56"format '*' expects type '*', but argument * has type '*'0(22@20"Unused variable 'qs'381705458#260#67#0(6@31"/myPrograms/OpenKinect/main.cpp381705250#255#0#255#0#19"unused variable '*'0(0#0#31"/myPrograms/OpenKinect/main.cpp8616951904#1000"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/main.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o /myPrograms/OpenKinect/testTSQueue.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381630224.792561
+e381630225.210314
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o
+x/myPrograms/OpenKinect/testTSQueue.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /myPrograms/OpenKinect/testTSQueue.cpp381630224#381630225#0(0"0(0#0#38"/myPrograms/OpenKinect/testTSQueue.cpp8619259456#1014"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/testTSQueue.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o /myPrograms/OpenKinect/thread.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381704144.635138
+e381704144.677870
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o
+x/myPrograms/OpenKinect/thread.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /myPrograms/OpenKinect/thread.cpp381704144#381704144#0(0"0(0#0#33"/myPrograms/OpenKinect/thread.cpp8657304224#1004"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/thread.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o0#
+
+CLd /myPrograms/OpenKinect/build/Debug/OpenKinect normal i386
+r0
+
+CLd /myPrograms/OpenKinect/build/Debug/OpenKinect normal x86_64
+s381705458.463270
+e381705458.489338
+r1
+xLd
+x/myPrograms/OpenKinect/build/Debug/OpenKinect
+xnormal
+xx86_64
+lSLF07#2@50"Link /myPrograms/OpenKinect/build/Debug/OpenKinect381705458#381705458#0(0"0(0#0#0"8615768672#852"    cd /myPrograms/OpenKinect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/OpenKinect/build/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Release -L/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug -L/libusb-7da756e/openC/libfreenect/build/lib -F/myPrograms/OpenKinect/build/Debug -filelist /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList -mmacosx-version-min=10.6 -lHalf.6.0.0 -lIex.6.0.0 -lIlmImf.6.0.0 -lIlmThread.6.0.0 -lImath.6.0.0 -lfreenect -lfreenect_sync -lfreenect -lfreenect_sync -lfreenect -lfreenect -lfreenect_sync -lfreenect -framework GLUT -framework OpenGL -o /myPrograms/OpenKinect/build/Debug/OpenKinect0#
+

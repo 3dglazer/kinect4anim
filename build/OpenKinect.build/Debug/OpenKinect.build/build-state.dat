@@ -1,0 +1,1134 @@
+TOpenKinect
+v7
+r0
+t382192110.217752
+cCheck dependencies
+cCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o /myPrograms/OpenKinect/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o /myPrograms/OpenKinect/QueueDemo.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o /myPrograms/OpenKinect/thread.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /myPrograms/OpenKinect/build/Debug/OpenKinect normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004D5A2790000000000001A494
+t1297754000
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004CC42BAC000000000000578C
+t1287924652
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004D5A2791000000000000DB14
+t1297754001
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/semaphore.h
+c000000004BBD2CE9000000000000046F
+t1270689001
+s1135
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h
+c000000004BBD2CE90000000000000438
+t1270689001
+s1080
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004BBD2CE900000000000014F0
+t1270689001
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004CC3DE680000000000004A1D
+t1287904872
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/timeb.h
+c000000004CC3DE6800000000000010C2
+t1287904872
+s4290
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004CC3DE680000000000002905
+t1287904872
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004A11EB24000000000000EA8F
+t1242688292
+s60047
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A11EB240000000000001538
+t1242688292
+s5432
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A11EB240000000000000C7E
+t1242688292
+s3198
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib
+c0000000050B61CE90000000000043B60
+t1354112233
+s277344
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib
+c0000000050B61CE9000000000001F130
+t1354112233
+s127280
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib
+c0000000050B620FD0000000000122540
+t1354113277
+s1189184
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib
+c0000000050B61CEA0000000000009610
+t1354112234
+s38416
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib
+c0000000050B61CEA0000000000009B00
+t1354112234
+s39680
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.a
+c00000000510A9B320000000000021D28
+t1359649586
+s138536
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib
+c00000000510E775C00000000000102E0
+t1359902556
+s66272
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect_sync.a
+c00000000510A9B330000000000006480
+t1359649587
+s25728
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect.dylib
+c00000000511020CB000000000000B998
+t1360011467
+s47512
+
+N/libusb-7da756e/openC/libfreenect/build/lib/Release/libfreenect_sync.dylib
+c0000000051125AF20000000000004F70
+t1360157426
+s20336
+
+N/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug/libfreenect.dylib
+c00000000510A9B320000000000005C88
+t1359649586
+s23688
+
+N/libusb-7da756e/openC/libfreenect/build/lib/libfreenect.dylib
+c00000000510A9ADC00000000000113F0
+t1359649500
+s70640
+
+N/libusb-7da756e/openC/libfreenect/build/lib/libfreenect_sync.dylib
+c00000000510A9ADD0000000000004F70
+t1359649501
+s20336
+
+N/libusb-7da756e/openC/libfreenect/include/libfreenect.h
+c00000000510A897A0000000000005F6E
+t1359645050
+s24430
+i<stdint.h>
+i<winsock.h>
+i<sys/time.h>
+
+N/libusb-7da756e/openC/libfreenect/wrappers/c_sync/libfreenect_sync.h
+c00000000510A897A0000000000000D33
+t1359645050
+s3379
+i<libfreenect.h>
+i<stdint.h>
+
+N/libusb-7da756e/openC/libfreenect/wrappers/cpp/libfreenect.hpp
+c0000000051137CF3000000000000221C
+t1360231667
+s8732
+i<libfreenect.h>
+i<stdexcept>
+i<map>
+i<pthread.h>
+
+N/myPrograms/OpenKinect/Base.h
+c000000004D5E63820000000000000FAA
+t1298031490
+s4010
+i<stdlib.h>
+
+N/myPrograms/OpenKinect/Queue.h
+c00000000511025700000000000000832
+t1360012656
+s2098
+
+N/myPrograms/OpenKinect/QueueDemo.cpp
+c00000000510FE9AD0000000000000BE0
+t1359997357
+s3040
+i"Queue.h"
+
+N/myPrograms/OpenKinect/TSQueue.h
+c00000000510EFF440000000000003B23
+t1359937348
+s15139
+i<deque>
+i<iterator>
+i<semaphore.h>
+i<pthread.h>
+i<errno.h>
+i<string.h>
+i"Base.h"
+i<sys/time.h>
+
+N/myPrograms/OpenKinect/build/Debug/OpenKinect
+t1360499310
+s107848
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/OpenKinect.LinkFileList
+c0000000051137BE40000000000000127
+t1360231396
+s295
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o
+t1360231434
+s1200
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o
+t1360231435
+s340388
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o
+t1360231434
+s7968
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList
+c0000000051137C2A000000000000012D
+t1360231466
+s301
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o
+t1360231467
+s1404
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o
+t1360499310
+s272324
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o
+t1359937425
+s40164
+
+N/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o
+t1360231467
+s9000
+
+N/myPrograms/OpenKinect/main.cpp
+c00000000511792570000000000004246
+t1360499287
+s16966
+i"libfreenect.hpp"
+i"libfreenect.h"
+i"libfreenect_sync.h"
+i<pthread.h>
+i<exception>
+i<ImfInputFile.h>
+i<ImfRgbaFile.h>
+i<ImfChannelList.h>
+i<ImfFrameBuffer.h>
+i<half.h>
+i"thread.h"
+i"Queue.h"
+i<stdio.h>
+i<string>
+i<iostream>
+i<cmath>
+i<vector>
+i"writeJPEG.h"
+i<GLUT/glut.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/glut.h>
+i<GL/gl.h>
+i<GL/glu.h>
+i<sys/time.h>
+i<sys/timeb.h>
+
+N/myPrograms/OpenKinect/queue.h
+c00000000510ECD7000000000000007B4
+t1359924592
+s1972
+i<pthread.h>
+i<stdlib.h>
+i<list>
+
+N/myPrograms/OpenKinect/testTSQueue.cpp
+c00000000510EFF8200000000000007B8
+t1359937410
+s1976
+i<time.h>
+i<algorithm>
+i<TSQueue.h>
+
+N/myPrograms/OpenKinect/thread.cpp
+c00000000510710CE000000000000069B
+t1359417550
+s1691
+i"thread.h"
+
+N/myPrograms/OpenKinect/thread.h
+c00000000510710CE0000000000000429
+t1359417550
+s1065
+i<pthread.h>
+
+N/myPrograms/OpenKinect/writeJPEG.h
+c000000005117926A00000000000022C6
+t1360499306
+s8902
+i<iostream>
+i<stdio.h>
+i"jpeglib.h"
+i<setjmp.h>
+
+N/opt/libjpeg-turbo/lib/libjpeg.dylib
+c0000000051103BB700000000000B5580
+t1360018359
+s742784
+
+N/opt/local/include/FLAC/assert.h
+c000000004F75CF4200000000000007B9
+t1333120834
+s1977
+i<assert.h>
+
+N/opt/local/include/OpenEXR/IexBaseExc.h
+c000000004E3C024B0000000000001F93
+t1312555595
+s8083
+i<string>
+i<exception>
+i<sstream>
+
+N/opt/local/include/OpenEXR/ImathBox.h
+c000000004E3C024C0000000000003CA8
+t1312555596
+s15528
+i"ImathVec.h"
+
+N/opt/local/include/OpenEXR/ImathExc.h
+c000000004E3C024C0000000000000AC6
+t1312555596
+s2758
+i"IexBaseExc.h"
+
+N/opt/local/include/OpenEXR/ImathInt64.h
+c000000004E3C024C000000000000093B
+t1312555596
+s2363
+i<limits.h>
+
+N/opt/local/include/OpenEXR/ImathLimits.h
+c000000004E3C024C0000000000001EAF
+t1312555596
+s7855
+i<float.h>
+i<limits.h>
+
+N/opt/local/include/OpenEXR/ImathMath.h
+c000000004E3C024C0000000000001C57
+t1312555596
+s7255
+i"ImathPlatform.h"
+i"ImathLimits.h"
+i<math.h>
+
+N/opt/local/include/OpenEXR/ImathPlatform.h
+c000000004E3C024C0000000000000CEB
+t1312555596
+s3307
+i<math.h>
+
+N/opt/local/include/OpenEXR/ImathVec.h
+c000000004E3C024C000000000000AE70
+t1312555596
+s44656
+i"ImathExc.h"
+i"ImathLimits.h"
+i"ImathMath.h"
+i<iostream>
+
+N/opt/local/include/OpenEXR/ImfChannelList.h
+c000000005021B7B50000000000002C43
+t1344386997
+s11331
+i<ImfName.h>
+i<ImfPixelType.h>
+i<map>
+i<set>
+i<string>
+
+N/opt/local/include/OpenEXR/ImfCompression.h
+c000000005021B7B50000000000000AD0
+t1344386997
+s2768
+
+N/opt/local/include/OpenEXR/ImfFrameBuffer.h
+c000000005021B7B5000000000000244E
+t1344386997
+s9294
+i<ImfName.h>
+i<ImfPixelType.h>
+i<map>
+i<string>
+
+N/opt/local/include/OpenEXR/ImfHeader.h
+c000000005021B7B50000000000004248
+t1344386997
+s16968
+i<ImfLineOrder.h>
+i<ImfCompression.h>
+i<ImfName.h>
+i<ImfTileDescription.h>
+i<ImfInt64.h>
+i"ImathVec.h"
+i"ImathBox.h"
+i"IexBaseExc.h"
+i<map>
+i<iosfwd>
+i<string>
+
+N/opt/local/include/OpenEXR/ImfInputFile.h
+c000000005021B7B50000000000001BE9
+t1344386997
+s7145
+i<ImfHeader.h>
+i<ImfFrameBuffer.h>
+i<ImfTiledOutputFile.h>
+i<string>
+i<fstream>
+i<ImfThreading.h>
+
+N/opt/local/include/OpenEXR/ImfInt64.h
+c000000005021B7B50000000000000882
+t1344386997
+s2178
+i"ImathInt64.h"
+
+N/opt/local/include/OpenEXR/ImfLineOrder.h
+c000000005021B7B50000000000000960
+t1344386997
+s2400
+
+N/opt/local/include/OpenEXR/ImfName.h
+c000000005021B7B50000000000000DC8
+t1344386997
+s3528
+i<string.h>
+
+N/opt/local/include/OpenEXR/ImfPixelType.h
+c000000005021B7B50000000000000908
+t1344386997
+s2312
+
+N/opt/local/include/OpenEXR/ImfRgba.h
+c000000005021B7B50000000000000BFB
+t1344386997
+s3067
+i"half.h"
+
+N/opt/local/include/OpenEXR/ImfRgbaFile.h
+c000000005021B7B50000000000002C25
+t1344386997
+s11301
+i<ImfHeader.h>
+i<ImfFrameBuffer.h>
+i<ImfRgba.h>
+i"ImathVec.h"
+i"ImathBox.h"
+i"half.h"
+i<ImfThreading.h>
+i<string>
+
+N/opt/local/include/OpenEXR/ImfThreading.h
+c000000005021B7B5000000000000107C
+t1344386997
+s4220
+
+N/opt/local/include/OpenEXR/ImfTileDescription.h
+c000000005021B7B50000000000000C2F
+t1344386997
+s3119
+
+N/opt/local/include/OpenEXR/ImfTiledOutputFile.h
+c000000005021B7B500000000000043B7
+t1344386997
+s17335
+i<ImfHeader.h>
+i<ImfFrameBuffer.h>
+i"ImathBox.h"
+i<ImfTileDescription.h>
+i<ImfThreading.h>
+
+N/opt/local/include/OpenEXR/half.h
+c000000004E3C024B000000000000451F
+t1312555595
+s17695
+i<iostream>
+
+N/opt/local/include/jack/thread.h
+c0000000051136A1900000000000011CD
+t1360226841
+s4557
+i<pthread.h>
+i<jack/weakmacros.h>
+
+N/opt/local/include/jconfig.h
+c000000004F4C77320000000000000650
+t1330411314
+s1616
+
+N/opt/local/include/jerror.h
+c000000004F4C773200000000000038F5
+t1330411314
+s14581
+
+N/opt/local/include/jmorecfg.h
+c000000004F4C7732000000000000310E
+t1330411314
+s12558
+
+N/opt/local/include/jpeglib.h
+c000000004F4C7732000000000000BDB9
+t1330411314
+s48569
+i"jconfig.h"
+i"jmorecfg.h"
+i"jpegint.h"
+i"jerror.h"
+
+N/opt/local/include/opencv2/calib3d/calib3d.hpp
+c00000000507F376A00000000000092FD
+t1350514538
+s37629
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+
+N/opt/local/include/opencv2/contrib/contrib.hpp
+c000000005081DA4F0000000000009636
+t1350687311
+s38454
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/contrib/retina.hpp"
+i"opencv2/contrib/openfabmap.hpp"
+
+N/opt/local/include/opencv2/contrib/openfabmap.hpp
+c000000005053B5CC0000000000003207
+t1347663308
+s12807
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i<vector>
+i<list>
+i<map>
+i<set>
+i<valarray>
+
+N/opt/local/include/opencv2/contrib/retina.hpp
+c00000000507F376A0000000000005DFA
+t1350514538
+s24058
+i"opencv2/core/core.hpp"
+i<valarray>
+
+N/opt/local/include/opencv2/core/core.hpp
+c000000005089C351000000000002CBF3
+t1351205713
+s183283
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<cstddef>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i<sstream>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/opt/local/include/opencv2/core/core_c.h
+c00000000501079620000000000013298
+t1343256930
+s78488
+i"opencv2/core/types_c.h"
+
+N/opt/local/include/opencv2/core/mat.hpp
+c00000000503D4C4A0000000000013923
+t1346194506
+s80163
+i<limits.h>
+i<string.h>
+
+N/opt/local/include/opencv2/core/operations.hpp
+c000000005093E0E7000000000001F6AA
+t1351868647
+s128682
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i<limits>
+
+N/opt/local/include/opencv2/core/types_c.h
+c0000000050107962000000000000E0BE
+t1343256930
+s57534
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+i"tegra_round.hpp"
+i"emmintrin.h"
+
+N/opt/local/include/opencv2/core/version.hpp
+c000000005093E0E700000000000009EA
+t1351868647
+s2538
+
+N/opt/local/include/opencv2/features2d/features2d.hpp
+c000000005081DA4F000000000000F899
+t1350687311
+s63641
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i<limits>
+
+N/opt/local/include/opencv2/flann/config.h
+c000000005010796200000000000006FD
+t1343256930
+s1789
+
+N/opt/local/include/opencv2/flann/defines.h
+c000000005064D94A000000000000124B
+t1348786506
+s4683
+i"config.h"
+
+N/opt/local/include/opencv2/flann/miniflann.hpp
+c00000000507F376A0000000000001785
+t1350514538
+s6021
+i"opencv2/core/core.hpp"
+i"opencv2/flann/defines.h"
+
+N/opt/local/include/opencv2/highgui/highgui.hpp
+c00000000507F376A00000000000023B4
+t1350514538
+s9140
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/opt/local/include/opencv2/highgui/highgui_c.h
+c00000000507F376A00000000000065A3
+t1350514538
+s26019
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/imgproc/imgproc.hpp
+c000000005081DA4F000000000000D6EA
+t1350687311
+s55018
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/imgproc/imgproc_c.h
+c00000000507F376A000000000000767F
+t1350514538
+s30335
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/opt/local/include/opencv2/imgproc/types_c.h
+c000000005081DA4F0000000000003EB4
+t1350687311
+s16052
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/ml/ml.hpp
+c000000005081DA4F0000000000013122
+t1350687311
+s78114
+i"opencv2/core/core.hpp"
+i<limits.h>
+i<map>
+i<string>
+i<iostream>
+
+N/opt/local/include/opencv2/objdetect/objdetect.hpp
+c000000005081DA4F00000000000091B7
+t1350687311
+s37303
+i"opencv2/core/core.hpp"
+i<map>
+i<deque>
+
+N/opt/local/include/opencv2/opencv.hpp
+c00000000501079620000000000000ABF
+t1343256930
+s2751
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/photo/photo.hpp"
+i"opencv2/video/video.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/ml/ml.hpp"
+i"opencv2/highgui/highgui_c.h"
+i"opencv2/highgui/highgui.hpp"
+i"opencv2/contrib/contrib.hpp"
+
+N/opt/local/include/opencv2/photo/photo.hpp
+c00000000505B9EC90000000000000F9D
+t1348181705
+s3997
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/photo/photo_c.h"
+
+N/opt/local/include/opencv2/photo/photo_c.h
+c00000000507F376A0000000000000A57
+t1350514538
+s2647
+i"opencv2/core/core_c.h"
+
+N/opt/local/include/opencv2/video/background_segm.hpp
+c00000000502985CB0000000000002A72
+t1344898507
+s10866
+i"opencv2/core/core.hpp"
+i<list>
+
+N/opt/local/include/opencv2/video/tracking.hpp
+c00000000507F376A00000000000045D7
+t1350514538
+s17879
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+
+N/opt/local/include/opencv2/video/video.hpp
+c00000000501079630000000000000970
+t1343256931
+s2416
+i"opencv2/video/tracking.hpp"
+i"opencv2/video/background_segm.hpp"
+
+N/opt/local/lib/libopencv_calib3d.2.4.dylib
+c000000005105949500000000000BE428
+t1359320213
+s779304
+
+N/opt/local/lib/libopencv_contrib.dylib
+c00000000510594A300000000001021E0
+t1359320227
+s1057248
+
+N/opt/local/lib/libopencv_core.2.4.dylib
+c0000000051059454000000000026D890
+t1359320148
+s2545808
+
+N/opt/local/lib/libopencv_features2d.dylib
+c000000005105948600000000000CE388
+t1359320198
+s844680
+
+N/opt/local/lib/libopencv_flann.dylib
+c000000005105946200000000000985A0
+t1359320162
+s624032
+
+N/opt/local/lib/libopencv_gpu.dylib
+c00000000510594AF0000000000030378
+t1359320239
+s197496
+
+N/opt/local/lib/libopencv_highgui.2.4.3.dylib
+c000000005105947900000000000AA590
+t1359320185
+s697744
+
+N/opt/local/lib/libopencv_imgproc.2.4.dylib
+c00000000510594710000000000256A28
+t1359320177
+s2452008
+
+N/opt/local/lib/libopencv_legacy.dylib
+c00000000510594AA0000000000139670
+t1359320234
+s1283696
+
+N/opt/local/lib/libopencv_ml.dylib
+c00000000510594610000000000084F68
+t1359320161
+s544616
+
+N/opt/local/lib/libopencv_nonfree.dylib
+c000000005105948A000000000001F0E8
+t1359320202
+s127208
+
+N/opt/local/lib/libopencv_objdetect.dylib
+c0000000051059484000000000009A1F8
+t1359320196
+s631288
+
+N/opt/local/lib/libopencv_photo.2.4.dylib
+c00000000510594740000000000021F40
+t1359320180
+s139072
+
+N/opt/local/lib/libopencv_stitching.dylib
+c00000000510594BD00000000000A3278
+t1359320253
+s668280
+
+N/opt/local/lib/libopencv_ts.dylib
+c000000005105949100000000000BF4F8
+t1359320209
+s783608
+
+N/opt/local/lib/libopencv_video.2.4.3.dylib
+c00000000510594770000000000049B50
+t1359320183
+s301904
+
+N/opt/local/lib/libopencv_videostab.dylib
+c00000000510594B80000000000047BC8
+t1359320248
+s293832
+
+N/usr/local/include/OpenEXR/ImfChannelList.h
+c0000000050B620FF0000000000002C43
+t1354113279
+s11331
+
+N/usr/local/include/OpenEXR/ImfFrameBuffer.h
+c0000000050B620FF000000000000244E
+t1354113279
+s9294
+
+N/usr/local/include/OpenEXR/ImfInputFile.h
+c0000000050B620FF0000000000001BE9
+t1354113279
+s7145
+
+N/usr/local/include/OpenEXR/ImfRgbaFile.h
+c0000000050B620FF0000000000002C25
+t1354113279
+s11301
+
+N/usr/local/include/OpenEXR/half.h
+c0000000050B61CE9000000000000451F
+t1354112233
+s17695
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies382192109#382192109#0(0"0(0#1#0"8613832448#0"0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o /myPrograms/OpenKinect/QueueDemo.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381924234.217692
+e381924234.260095
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o
+x/myPrograms/OpenKinect/QueueDemo.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /myPrograms/OpenKinect/QueueDemo.cpp381924234#381924234#0(0"0(0#0#36"/myPrograms/OpenKinect/QueueDemo.cpp8631415040#1025"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/i386 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/QueueDemo.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/QueueDemo.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o /myPrograms/OpenKinect/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381924234.216512
+e381924235.240064
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o
+x/myPrograms/OpenKinect/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/myPrograms/OpenKinect/main.cpp: In function 'void DrawGLScene()':
+o/myPrograms/OpenKinect/main.cpp:352: warning: unused variable 'redrawVideo'
+lSLF07#2@39"Compile /myPrograms/OpenKinect/main.cpp381924234#381924235#0(143"/myPrograms/OpenKinect/main.cpp: In function 'void DrawGLScene()':/myPrograms/OpenKinect/main.cpp:352: warning: unused variable 'redrawVideo'1(22@29"Unused variable 'redrawVideo'381924234#67#76#0(6@31"/myPrograms/OpenKinect/main.cpp381924175#352#0#352#0#19"unused variable '*'0(0#0#31"/myPrograms/OpenKinect/main.cpp8632054880#1015"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/i386 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/main.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o /myPrograms/OpenKinect/thread.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s381924234.260189
+e381924234.339198
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o
+x/myPrograms/OpenKinect/thread.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /myPrograms/OpenKinect/thread.cpp381924234#381924234#0(0"0(0#0#33"/myPrograms/OpenKinect/thread.cpp8629666752#1019"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/i386 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/thread.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/thread.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o /myPrograms/OpenKinect/QueueDemo.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381924266.990179
+e381924267.055355
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o
+x/myPrograms/OpenKinect/QueueDemo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /myPrograms/OpenKinect/QueueDemo.cpp381924266#381924267#0(0"0(0#0#36"/myPrograms/OpenKinect/QueueDemo.cpp8632631488#1031"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/QueueDemo.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o /myPrograms/OpenKinect/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s382192109.220548
+e382192110.159875
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o
+x/myPrograms/OpenKinect/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /myPrograms/OpenKinect/main.cpp382192109#382192110#0(0"0(0#0#31"/myPrograms/OpenKinect/main.cpp8619921248#1021"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/main.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o /myPrograms/OpenKinect/testTSQueue.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381630224.792561
+e381630225.210314
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o
+x/myPrograms/OpenKinect/testTSQueue.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /myPrograms/OpenKinect/testTSQueue.cpp381630224#381630225#0(0"0(0#0#38"/myPrograms/OpenKinect/testTSQueue.cpp8619259456#1014"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/testTSQueue.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/testTSQueue.o0#
+
+CCompileC build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o /myPrograms/OpenKinect/thread.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s381924267.055465
+e381924267.097657
+r1
+xCompileC
+xbuild/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o
+x/myPrograms/OpenKinect/thread.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /myPrograms/OpenKinect/thread.cpp381924267#381924267#0(0"0(0#0#33"/myPrograms/OpenKinect/thread.cpp8631157888#1025"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Debug -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/opt/local/include -I/usr/local/include/OpenEXR -I/myPrograms/OpenKinect/build/Debug/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/thread.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/thread.o0#
+
+CLd /myPrograms/OpenKinect/build/Debug/OpenKinect normal i386
+s381924235.240156
+e381924236.290917
+r0
+xLd
+x/myPrograms/OpenKinect/build/Debug/OpenKinect
+xnormal
+xi386
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect_sync.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_photo.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_imgproc.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_core.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_calib3d.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_highgui.2.4.3.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_video.2.4.3.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_videostab.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_ts.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_stitching.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_objdetect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_nonfree.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_ml.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_legacy.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_gpu.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_flann.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_features2d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+old: warning: in /opt/local/lib/libopencv_contrib.dylib, file was built for unsupported file format which is not the architecture being linked (i386)
+oUndefined symbols:
+o  "_freenect_start_depth", referenced from:
+o      Freenect::FreenectDevice::startDepth()      in main.o
+o  "Imf::RgbaOutputFile::writePixels(int)", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "_freenect_set_user", referenced from:
+o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o
+o  "_freenect_find_depth_mode", referenced from:
+o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o
+o  "Imf::Header::Header(Imath::Box<Imath::Vec2<int> > const&, Imath::Box<Imath::Vec2<int> > const&, float, Imath::Vec2<float> const&, float, Imf::LineOrder, Imf::Compression)", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "_freenect_stop_video", referenced from:
+o      Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o
+o      Freenect::FreenectDevice::stopVideo()     in main.o
+o  "_freenect_select_subdevices", referenced from:
+o      Freenect::Freenect::Freenect()in main.o
+o  "Imf::RgbaOutputFile::~RgbaOutputFile()", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "half::convert(int)", referenced from:
+o      half::half(float)in main.o
+o  "_freenect_init", referenced from:
+o      Freenect::Freenect::Freenect()in main.o
+o  "Imf::RgbaOutputFile::setFrameBuffer(Imf::Rgba const*, unsigned long, unsigned long)", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "_freenect_set_tilt_degs", referenced from:
+o      Freenect::FreenectDevice::setTiltDegrees(double)in main.o
+o  "_freenect_stop_depth", referenced from:
+o      Freenect::FreenectDevice::stopDepth()     in main.o
+o  "_freenect_find_video_mode", referenced from:
+o      Freenect::FreenectDevice::getVideoBufferSize()      in main.o
+o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o
+o      MyFreenectDevice::MyFreenectDevice(_freenect_context*, int)in main.o
+o      Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o
+o  "_freenect_shutdown", referenced from:
+o      Freenect::Freenect::~Freenect()in main.o
+o  "Imf::Header::compression()", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "half::_eLut", referenced from:
+o      __ZN4half5_eLutE$non_lazy_ptr in main.o
+o     (maybe you meant: __ZN4half5_eLutE$non_lazy_ptr)
+o  "Imf::Header::~Header()", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "Imf::globalThreadCount()", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "_freenect_open_device", referenced from:
+o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o
+o  "_freenect_set_video_callback", referenced from:
+o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o
+o  "_freenect_close_device", referenced from:
+o      Freenect::FreenectDevice::~FreenectDevice()in main.o
+o      Freenect::FreenectDevice::~FreenectDevice()in main.o
+o      Freenect::FreenectDevice::~FreenectDevice()in main.o
+o  "_freenect_set_depth_callback", referenced from:
+o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o
+o  "_freenect_set_depth_mode", referenced from:
+o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o
+o  "_freenect_process_events", referenced from:
+o      Freenect::Freenect::operator()()in main.o
+o  "Imf::RgbaOutputFile::RgbaOutputFile(char const*, Imf::Header const&, Imf::RgbaChannels, int)", referenced from:
+o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o
+o  "_freenect_set_led", referenced from:
+o      Freenect::FreenectDevice::setLed(freenect_led_options)      in main.o
+o  "_freenect_start_video", referenced from:
+o      Freenect::FreenectDevice::startVideo()      in main.o
+o      Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o
+o  "_freenect_get_user", referenced from:
+o      Freenect::FreenectDevice::freenect_video_callback(_freenect_device*, void*, unsigned int)in main.o
+o      Freenect::FreenectDevice::freenect_depth_callback(_freenect_device*, void*, unsigned int)in main.o
+o  "_freenect_set_video_mode", referenced from:
+o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o
+o      Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@50"Link /myPrograms/OpenKinect/build/Debug/OpenKinect381924235#381924236#0(8719"ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect_sync.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_photo.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_imgproc.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_core.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_calib3d.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_highgui.2.4.3.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_video.2.4.3.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_videostab.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_ts.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_stitching.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_objdetect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_nonfree.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_ml.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_legacy.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_gpu.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_flann.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_features2d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /opt/local/lib/libopencv_contrib.dylib, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  "_freenect_start_depth", referenced from:      Freenect::FreenectDevice::startDepth()      in main.o  "Imf::RgbaOutputFile::writePixels(int)", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "_freenect_set_user", referenced from:      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o  "_freenect_find_depth_mode", referenced from:      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o  "Imf::Header::Header(Imath::Box<Imath::Vec2<int> > const&, Imath::Box<Imath::Vec2<int> > const&, float, Imath::Vec2<float> const&, float, Imf::LineOrder, Imf::Compression)", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "_freenect_stop_video", referenced from:      Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o      Freenect::FreenectDevice::stopVideo()     in main.o  "_freenect_select_subdevices", referenced from:      Freenect::Freenect::Freenect()in main.o  "Imf::RgbaOutputFile::~RgbaOutputFile()", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "half::convert(int)", referenced from:      half::half(float)in main.o  "_freenect_init", referenced from:      Freenect::Freenect::Freenect()in main.o  "Imf::RgbaOutputFile::setFrameBuffer(Imf::Rgba const*, unsigned long, unsigned long)", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "_freenect_set_tilt_degs", referenced from:      Freenect::FreenectDevice::setTiltDegrees(double)in main.o  "_freenect_stop_depth", referenced from:      Freenect::FreenectDevice::stopDepth()     in main.o  "_freenect_find_video_mode", referenced from:      Freenect::FreenectDevice::getVideoBufferSize()      in main.o      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o      MyFreenectDevice::MyFreenectDevice(_freenect_context*, int)in main.o      Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o  "_freenect_shutdown", referenced from:      Freenect::Freenect::~Freenect()in main.o  "Imf::Header::compression()", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "half::_eLut", referenced from:      __ZN4half5_eLutE$non_lazy_ptr in main.o     (maybe you meant: __ZN4half5_eLutE$non_lazy_ptr)  "Imf::Header::~Header()", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "Imf::globalThreadCount()", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "_freenect_open_device", referenced from:      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o  "_freenect_set_video_callback", referenced from:      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o  "_freenect_close_device", referenced from:      Freenect::FreenectDevice::~FreenectDevice()in main.o      Freenect::FreenectDevice::~FreenectDevice()in main.o      Freenect::FreenectDevice::~FreenectDevice()in main.o  "_freenect_set_depth_callback", referenced from:      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o  "_freenect_set_depth_mode", referenced from:      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o  "_freenect_process_events", referenced from:      Freenect::Freenect::operator()()in main.o  "Imf::RgbaOutputFile::RgbaOutputFile(char const*, Imf::Header const&, Imf::RgbaChannels, int)", referenced from:      ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o  "_freenect_set_led", referenced from:      Freenect::FreenectDevice::setLed(freenect_led_options)      in main.o  "_freenect_start_video", referenced from:      Freenect::FreenectDevice::startVideo()      in main.o      Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o  "_freenect_get_user", referenced from:      Freenect::FreenectDevice::freenect_video_callback(_freenect_device*, void*, unsigned int)in main.o      Freenect::FreenectDevice::freenect_depth_callback(_freenect_device*, void*, unsigned int)in main.o  "_freenect_set_video_mode", referenced from:      Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o      Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.old: symbol(s) not foundcollect2: ld returned 1 exit status98(22@161"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libHalf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#0#175#0(6@0"381924236#0#0#0#0#0"0(22@160"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIex.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#175#174#0(6@0"381924236#0#0#0#0#0"0(22@163"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmImf.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#349#177#0(6@0"381924236#0#0#0#0#0"0(22@166"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libIlmThread.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#526#180#0(6@0"381924236#0#0#0#0#0"0(22@162"In /Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libImath.6.0.0.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#706#176#0(6@0"381924236#0#0#0#0#0"0(22@164"In /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#882#178#0(6@0"381924236#0#0#0#0#0"0(22@169"In /libusb-7da756e/openC/libfreenect/build/lib/Debug/libfreenect_sync.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#1060#183#0(6@0"381924236#0#0#0#0#0"0(22@137"In /opt/local/lib/libopencv_photo.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#1243#151#0(6@0"381924236#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_imgproc.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#1394#153#0(6@0"381924236#0#0#0#0#0"0(22@136"In /opt/local/lib/libopencv_core.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#1547#150#0(6@0"381924236#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_calib3d.2.4.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#1697#153#0(6@0"381924236#0#0#0#0#0"0(22@141"In /opt/local/lib/libopencv_highgui.2.4.3.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#1850#155#0(6@0"381924236#0#0#0#0#0"0(22@139"In /opt/local/lib/libopencv_video.2.4.3.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#2005#153#0(6@0"381924236#0#0#0#0#0"0(22@137"In /opt/local/lib/libopencv_videostab.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#2158#151#0(6@0"381924236#0#0#0#0#0"0(22@130"In /opt/local/lib/libopencv_ts.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#2309#144#0(6@0"381924236#0#0#0#0#0"0(22@137"In /opt/local/lib/libopencv_stitching.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#2453#151#0(6@0"381924236#0#0#0#0#0"0(22@137"In /opt/local/lib/libopencv_objdetect.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#2604#151#0(6@0"381924236#0#0#0#0#0"0(22@135"In /opt/local/lib/libopencv_nonfree.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#2755#149#0(6@0"381924236#0#0#0#0#0"0(22@130"In /opt/local/lib/libopencv_ml.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#2904#144#0(6@0"381924236#0#0#0#0#0"0(22@134"In /opt/local/lib/libopencv_legacy.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#3048#148#0(6@0"381924236#0#0#0#0#0"0(22@131"In /opt/local/lib/libopencv_gpu.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#3196#145#0(6@0"381924236#0#0#0#0#0"0(22@133"In /opt/local/lib/libopencv_flann.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#3341#147#0(6@0"381924236#0#0#0#0#0"0(22@138"In /opt/local/lib/libopencv_features2d.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#3488#152#0(6@0"381924236#0#0#0#0#0"0(22@135"In /opt/local/lib/libopencv_contrib.dylib, file was built for unsupported file format which is not the architecture being linked (i386)381924236#3640#149#0(6@0"381924236#0#0#0#0#0"0(4@41""_freenect_start_depth", referenced from:381924236#3808#44#0(6@0"381924236#0#0#0#0#0"0(13@53"Freenect::FreenectDevice::startDepth()      in main.o381924236#3852#60#0(6@0"381924236#0#0#0#0#0"0(4@57""Imf::RgbaOutputFile::writePixels(int)", referenced from:381924236#3912#60#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#3972#90#0(6@0"381924236#0#0#0#0#0"0(4@38""_freenect_set_user", referenced from:381924236#4062#41#0(6@0"381924236#0#0#0#0#0"0(13@74"Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o381924236#4103#81#0(6@0"381924236#0#0#0#0#0"0(4@45""_freenect_find_depth_mode", referenced from:381924236#4184#48#0(6@0"381924236#0#0#0#0#0"0(13@74"Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o381924236#4232#81#0(6@0"381924236#0#0#0#0#0"0(4@190""Imf::Header::Header(Imath::Box<Imath::Vec2<int> > const&, Imath::Box<Imath::Vec2<int> > const&, float, Imath::Vec2<float> const&, float, Imf::LineOrder, Imf::Compression)", referenced from:381924236#4313#193#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#4506#90#0(6@0"381924236#0#0#0#0#0"0(4@40""_freenect_stop_video", referenced from:381924236#4596#43#0(6@0"381924236#0#0#0#0#0"0(13@100"Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o381924236#4639#107#0(6@0"381924236#0#0#0#0#0"0(13@51"Freenect::FreenectDevice::stopVideo()     in main.o381924236#4746#58#0(6@0"381924236#0#0#0#0#0"0(4@47""_freenect_select_subdevices", referenced from:381924236#4804#50#0(6@0"381924236#0#0#0#0#0"0(13@39"Freenect::Freenect::Freenect()in main.o381924236#4854#46#0(6@0"381924236#0#0#0#0#0"0(4@58""Imf::RgbaOutputFile::~RgbaOutputFile()", referenced from:381924236#4900#61#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#4961#90#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#5051#90#0(6@0"381924236#0#0#0#0#0"0(4@38""half::convert(int)", referenced from:381924236#5141#41#0(6@0"381924236#0#0#0#0#0"0(13@26"Half::half(float)in main.o381924236#5182#33#0(6@0"381924236#0#0#0#0#0"0(4@34""_freenect_init", referenced from:381924236#5215#37#0(6@0"381924236#0#0#0#0#0"0(13@39"Freenect::Freenect::Freenect()in main.o381924236#5252#46#0(6@0"381924236#0#0#0#0#0"0(4@103""Imf::RgbaOutputFile::setFrameBuffer(Imf::Rgba const*, unsigned long, unsigned long)", referenced from:381924236#5298#106#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#5404#90#0(6@0"381924236#0#0#0#0#0"0(4@43""_freenect_set_tilt_degs", referenced from:381924236#5494#46#0(6@0"381924236#0#0#0#0#0"0(13@57"Freenect::FreenectDevice::setTiltDegrees(double)in main.o381924236#5540#64#0(6@0"381924236#0#0#0#0#0"0(4@40""_freenect_stop_depth", referenced from:381924236#5604#43#0(6@0"381924236#0#0#0#0#0"0(13@51"Freenect::FreenectDevice::stopDepth()     in main.o381924236#5647#58#0(6@0"381924236#0#0#0#0#0"0(4@45""_freenect_find_video_mode", referenced from:381924236#5705#48#0(6@0"381924236#0#0#0#0#0"0(13@61"Freenect::FreenectDevice::getVideoBufferSize()      in main.o381924236#5753#68#0(6@0"381924236#0#0#0#0#0"0(13@74"Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o381924236#5821#81#0(6@0"381924236#0#0#0#0#0"0(13@68"MyFreenectDevice::MyFreenectDevice(_freenect_context*, int)in main.o381924236#5902#75#0(6@0"381924236#0#0#0#0#0"0(13@100"Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o381924236#5977#107#0(6@0"381924236#0#0#0#0#0"0(4@38""_freenect_shutdown", referenced from:381924236#6084#41#0(6@0"381924236#0#0#0#0#0"0(13@40"Freenect::Freenect::~Freenect()in main.o381924236#6125#47#0(6@0"381924236#0#0#0#0#0"0(4@46""Imf::Header::compression()", referenced from:381924236#6172#49#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#6221#90#0(6@0"381924236#0#0#0#0#0"0(4@31""half::_eLut", referenced from:381924236#6311#34#0(6@0"381924236#0#0#0#0#0"0(13@39"__ZN4half5_eLutE$non_lazy_ptr in main.o381924236#6345#46#0(6@0"381924236#0#0#0#0#0"0(13@48"(maybe you meant: __ZN4half5_eLutE$non_lazy_ptr)381924236#6391#54#0(6@0"381924236#0#0#0#0#0"0(4@42""Imf::Header::~Header()", referenced from:381924236#6445#45#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#6490#90#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#6580#90#0(6@0"381924236#0#0#0#0#0"0(4@44""Imf::globalThreadCount()", referenced from:381924236#6670#47#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#6717#90#0(6@0"381924236#0#0#0#0#0"0(4@41""_freenect_open_device", referenced from:381924236#6807#44#0(6@0"381924236#0#0#0#0#0"0(13@74"Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o381924236#6851#81#0(6@0"381924236#0#0#0#0#0"0(4@48""_freenect_set_video_callback", referenced from:381924236#6932#51#0(6@0"381924236#0#0#0#0#0"0(13@74"Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o381924236#6983#81#0(6@0"381924236#0#0#0#0#0"0(4@42""_freenect_close_device", referenced from:381924236#7064#45#0(6@0"381924236#0#0#0#0#0"0(13@52"Freenect::FreenectDevice::~FreenectDevice()in main.o381924236#7109#59#0(6@0"381924236#0#0#0#0#0"0(13@52"Freenect::FreenectDevice::~FreenectDevice()in main.o381924236#7168#59#0(6@0"381924236#0#0#0#0#0"0(13@52"Freenect::FreenectDevice::~FreenectDevice()in main.o381924236#7227#59#0(6@0"381924236#0#0#0#0#0"0(4@48""_freenect_set_depth_callback", referenced from:381924236#7286#51#0(6@0"381924236#0#0#0#0#0"0(13@74"Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o381924236#7337#81#0(6@0"381924236#0#0#0#0#0"0(4@44""_freenect_set_depth_mode", referenced from:381924236#7418#47#0(6@0"381924236#0#0#0#0#0"0(13@74"Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o381924236#7465#81#0(6@0"381924236#0#0#0#0#0"0(4@44""_freenect_process_events", referenced from:381924236#7546#47#0(6@0"381924236#0#0#0#0#0"0(13@41"Freenect::Freenect::operator()()in main.o381924236#7593#48#0(6@0"381924236#0#0#0#0#0"0(4@112""Imf::RgbaOutputFile::RgbaOutputFile(char const*, Imf::Header const&, Imf::RgbaChannels, int)", referenced from:381924236#7641#115#0(6@0"381924236#0#0#0#0#0"0(13@83"ImageWriter::writeEXR(char const*, Imf::Rgba*, int, int, Imf::Compression)in main.o381924236#7756#90#0(6@0"381924236#0#0#0#0#0"0(4@37""_freenect_set_led", referenced from:381924236#7846#40#0(6@0"381924236#0#0#0#0#0"0(13@69"Freenect::FreenectDevice::setLed(freenect_led_options)      in main.o381924236#7886#76#0(6@0"381924236#0#0#0#0#0"0(4@41""_freenect_start_video", referenced from:381924236#7962#44#0(6@0"381924236#0#0#0#0#0"0(13@53"Freenect::FreenectDevice::startVideo()      in main.o381924236#8006#60#0(6@0"381924236#0#0#0#0#0"0(13@100"Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o381924236#8066#107#0(6@0"381924236#0#0#0#0#0"0(4@38""_freenect_get_user", referenced from:381924236#8173#41#0(6@0"381924236#0#0#0#0#0"0(13@98"Freenect::FreenectDevice::freenect_video_callback(_freenect_device*, void*, unsigned int)in main.o381924236#8214#105#0(6@0"381924236#0#0#0#0#0"0(13@98"Freenect::FreenectDevice::freenect_depth_callback(_freenect_device*, void*, unsigned int)in main.o381924236#8319#105#0(6@0"381924236#0#0#0#0#0"0(4@44""_freenect_set_video_mode", referenced from:381924236#8424#47#0(6@0"381924236#0#0#0#0#0"0(13@74"Freenect::FreenectDevice::FreenectDevice(_freenect_context*, int)in main.o381924236#8471#81#0(6@0"381924236#0#0#0#0#0"0(13@100"Freenect::FreenectDevice::setVideoFormat(freenect_video_format, freenect_resolution)       in main.o381924236#8552#107#0(6@0"381924236#0#0#0#0#0"0(13@19"Symbol(s) not found381924236#8659#24#0(6@0"381924236#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status381924236#8683#36#0(6@0"381924236#0#0#0#0#0"0(0#0#0"8626488128#20283"    cd /myPrograms/OpenKinect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/OpenKinect/build/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Release -L/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug -L/libusb-7da756e/openC/libfreenect/build/lib -L/opt/local/lib -L/opt/local/lib/cmake -L/opt/local/lib/db46 -L/opt/local/lib/engines -L/opt/local/lib/gettext -L/opt/local/lib/help2man -L/opt/local/lib/jack -L/opt/local/lib/perl5 -L/opt/local/lib/pkgconfig -L/opt/local/lib/python2.7 -L/opt/local/lib/terminfo -L/opt/local/lib/X11 -L/opt/local/lib/perl5/5.12.4 -L/opt/local/lib/perl5/vendor_perl -L/opt/local/lib/python2.7/site-packages -L/opt/local/lib/terminfo/31 -L/opt/local/lib/terminfo/32 -L/opt/local/lib/terminfo/33 -L/opt/local/lib/terminfo/34 -L/opt/local/lib/terminfo/35 -L/opt/local/lib/terminfo/36 -L/opt/local/lib/terminfo/37 -L/opt/local/lib/terminfo/38 -L/opt/local/lib/terminfo/39 -L/opt/local/lib/terminfo/41 -L/opt/local/lib/terminfo/45 -L/opt/local/lib/terminfo/4c -L/opt/local/lib/terminfo/4d -L/opt/local/lib/terminfo/4e -L/opt/local/lib/terminfo/50 -L/opt/local/lib/terminfo/51 -L/opt/local/lib/terminfo/58 -L/opt/local/lib/terminfo/61 -L/opt/local/lib/terminfo/62 -L/opt/local/lib/terminfo/63 -L/opt/local/lib/terminfo/64 -L/opt/local/lib/terminfo/65 -L/opt/local/lib/terminfo/66 -L/opt/local/lib/terminfo/67 -L/opt/local/lib/terminfo/68 -L/opt/local/lib/terminfo/69 -L/opt/local/lib/terminfo/6a -L/opt/local/lib/terminfo/6b -L/opt/local/lib/terminfo/6c -L/opt/local/lib/terminfo/6d -L/opt/local/lib/terminfo/6e -L/opt/local/lib/terminfo/6f -L/opt/local/lib/terminfo/70 -L/opt/local/lib/terminfo/71 -L/opt/local/lib/terminfo/72 -L/opt/local/lib/terminfo/73 -L/opt/local/lib/terminfo/74 -L/opt/local/lib/terminfo/75 -L/opt/local/lib/terminfo/76 -L/opt/local/lib/terminfo/77 -L/opt/local/lib/terminfo/78 -L/opt/local/lib/terminfo/7a -L/opt/local/lib/perl5/5.12.4/App -L/opt/local/lib/perl5/5.12.4/Archive -L/opt/local/lib/perl5/5.12.4/Attribute -L/opt/local/lib/perl5/5.12.4/autodie -L/opt/local/lib/perl5/5.12.4/B -L/opt/local/lib/perl5/5.12.4/Carp -L/opt/local/lib/perl5/5.12.4/CGI -L/opt/local/lib/perl5/5.12.4/Class -L/opt/local/lib/perl5/5.12.4/Compress -L/opt/local/lib/perl5/5.12.4/Config -L/opt/local/lib/perl5/5.12.4/CPAN -L/opt/local/lib/perl5/5.12.4/CPANPLUS -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level -L/opt/local/lib/perl5/5.12.4/DBM_Filter -L/opt/local/lib/perl5/5.12.4/Devel -L/opt/local/lib/perl5/5.12.4/Digest -L/opt/local/lib/perl5/5.12.4/Encode -L/opt/local/lib/perl5/5.12.4/encoding -L/opt/local/lib/perl5/5.12.4/Exporter -L/opt/local/lib/perl5/5.12.4/ExtUtils -L/opt/local/lib/perl5/5.12.4/File -L/opt/local/lib/perl5/5.12.4/Filter -L/opt/local/lib/perl5/5.12.4/Getopt -L/opt/local/lib/perl5/5.12.4/I18N -L/opt/local/lib/perl5/5.12.4/inc -L/opt/local/lib/perl5/5.12.4/IO -L/opt/local/lib/perl5/5.12.4/IPC -L/opt/local/lib/perl5/5.12.4/Locale -L/opt/local/lib/perl5/5.12.4/Log -L/opt/local/lib/perl5/5.12.4/Math -L/opt/local/lib/perl5/5.12.4/Memoize -L/opt/local/lib/perl5/5.12.4/Module -L/opt/local/lib/perl5/5.12.4/Net -L/opt/local/lib/perl5/5.12.4/Object -L/opt/local/lib/perl5/5.12.4/overload -L/opt/local/lib/perl5/5.12.4/Package -L/opt/local/lib/perl5/5.12.4/Params -L/opt/local/lib/perl5/5.12.4/Parse -L/opt/local/lib/perl5/5.12.4/PerlIO -L/opt/local/lib/perl5/5.12.4/Pod -L/opt/local/lib/perl5/5.12.4/pods -L/opt/local/lib/perl5/5.12.4/Search -L/opt/local/lib/perl5/5.12.4/TAP -L/opt/local/lib/perl5/5.12.4/Term -L/opt/local/lib/perl5/5.12.4/Test -L/opt/local/lib/perl5/5.12.4/Text -L/opt/local/lib/perl5/5.12.4/Thread -L/opt/local/lib/perl5/5.12.4/Tie -L/opt/local/lib/perl5/5.12.4/Time -L/opt/local/lib/perl5/5.12.4/Unicode -L/opt/local/lib/perl5/5.12.4/unicore -L/opt/local/lib/perl5/5.12.4/User -L/opt/local/lib/perl5/5.12.4/version -L/opt/local/lib/perl5/5.12.4/warnings -L/opt/local/lib/perl5/vendor_perl/5.12.4 -L/opt/local/lib/python2.7/site-packages/xcbgen -L/opt/local/lib/perl5/5.12.4/App/Prove -L/opt/local/lib/perl5/5.12.4/Archive/Tar -L/opt/local/lib/perl5/5.12.4/autodie/exception -L/opt/local/lib/perl5/5.12.4/B/Lint -L/opt/local/lib/perl5/5.12.4/CPAN/API -L/opt/local/lib/perl5/5.12.4/CPAN/Exception -L/opt/local/lib/perl5/5.12.4/CPAN/FTP -L/opt/local/lib/perl5/5.12.4/CPAN/Kwalify -L/opt/local/lib/perl5/5.12.4/CPAN/LWP -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Backend -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Configure -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Dist -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Module -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Shell -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/B -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Compress -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/CORE -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Data -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Devel -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Digest -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Filter -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Hash -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/I18N -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/IO -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/IPC -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/List -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Math -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/MIME -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/PerlIO -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Scalar -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Sys -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Text -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/threads -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Time -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Unicode -L/opt/local/lib/perl5/5.12.4/ExtUtils/CBuilder -L/opt/local/lib/perl5/5.12.4/ExtUtils/Command -L/opt/local/lib/perl5/5.12.4/ExtUtils/Constant -L/opt/local/lib/perl5/5.12.4/ExtUtils/Liblist -L/opt/local/lib/perl5/5.12.4/ExtUtils/MakeMaker -L/opt/local/lib/perl5/5.12.4/I18N/LangTags -L/opt/local/lib/perl5/5.12.4/inc/latest -L/opt/local/lib/perl5/5.12.4/IO/Compress -L/opt/local/lib/perl5/5.12.4/IO/Uncompress -L/opt/local/lib/perl5/5.12.4/Locale/Maketext -L/opt/local/lib/perl5/5.12.4/Log/Message -L/opt/local/lib/perl5/5.12.4/Math/BigFloat -L/opt/local/lib/perl5/5.12.4/Math/BigInt -L/opt/local/lib/perl5/5.12.4/Module/Build -L/opt/local/lib/perl5/5.12.4/Module/Load -L/opt/local/lib/perl5/5.12.4/Module/Pluggable -L/opt/local/lib/perl5/5.12.4/Net/FTP -L/opt/local/lib/perl5/5.12.4/Parse/CPAN -L/opt/local/lib/perl5/5.12.4/PerlIO/via -L/opt/local/lib/perl5/5.12.4/Pod/Perldoc -L/opt/local/lib/perl5/5.12.4/Pod/Simple -L/opt/local/lib/perl5/5.12.4/Pod/Text -L/opt/local/lib/perl5/5.12.4/TAP/Formatter -L/opt/local/lib/perl5/5.12.4/TAP/Parser -L/opt/local/lib/perl5/5.12.4/Term/UI -L/opt/local/lib/perl5/5.12.4/Test/Builder -L/opt/local/lib/perl5/5.12.4/Tie/Hash -L/opt/local/lib/perl5/5.12.4/Unicode/Collate -L/opt/local/lib/perl5/5.12.4/unicore/auxiliary -L/opt/local/lib/perl5/5.12.4/unicore/extracted -L/opt/local/lib/perl5/5.12.4/unicore/lib -L/opt/local/lib/perl5/5.12.4/unicore/To -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level -L/opt/local/lib/perl5/5.12.4/App/Prove/State -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Dist/Build -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals/Constants -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals/Source -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals/Utils -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Module/Author -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Shell/Default -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/attributes -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/B -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Cwd -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Data -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/DB_File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Devel -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Digest -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/DynaLoader -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Fcntl -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Filter -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/GDBM_File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Hash -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/I18N -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/IO -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/IPC -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/List -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Math -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/MIME -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/mro -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/NDBM_File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Opcode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/PerlIO -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/POSIX -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/re -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/sdbm -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/SDBM_File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Socket -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Storable -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Sys -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Text -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/threads -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Time -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Unicode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Compress/Raw -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/CN -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/JP -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/KR -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/MIME -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/Unicode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/File/Spec -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Filter/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Hash/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/IO/Socket -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/List/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Math/BigInt -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Scalar/Util -L/opt/local/lib/perl5/5.12.4/ExtUtils/CBuilder/Platform -L/opt/local/lib/perl5/5.12.4/IO/Compress/Adapter -L/opt/local/lib/perl5/5.12.4/IO/Compress/Base -L/opt/local/lib/perl5/5.12.4/IO/Compress/Gzip -L/opt/local/lib/perl5/5.12.4/IO/Compress/Zip -L/opt/local/lib/perl5/5.12.4/IO/Compress/Zlib -L/opt/local/lib/perl5/5.12.4/IO/Uncompress/Adapter -L/opt/local/lib/perl5/5.12.4/Module/Build/Platform -L/opt/local/lib/perl5/5.12.4/TAP/Formatter/Console -L/opt/local/lib/perl5/5.12.4/TAP/Formatter/File -L/opt/local/lib/perl5/5.12.4/TAP/Parser/Iterator -L/opt/local/lib/perl5/5.12.4/TAP/Parser/Result -L/opt/local/lib/perl5/5.12.4/TAP/Parser/Scheduler -L/opt/local/lib/perl5/5.12.4/TAP/Parser/Source -L/opt/local/lib/perl5/5.12.4/TAP/Parser/YAMLish -L/opt/local/lib/perl5/5.12.4/Test/Builder/Tester -L/opt/local/lib/perl5/5.12.4/unicore/lib/Age -L/opt/local/lib/perl5/5.12.4/unicore/lib/AHex -L/opt/local/lib/perl5/5.12.4/unicore/lib/Alpha -L/opt/local/lib/perl5/5.12.4/unicore/lib/Bc -L/opt/local/lib/perl5/5.12.4/unicore/lib/BidiC -L/opt/local/lib/perl5/5.12.4/unicore/lib/BidiM -L/opt/local/lib/perl5/5.12.4/unicore/lib/Blk -L/opt/local/lib/perl5/5.12.4/unicore/lib/Cased -L/opt/local/lib/perl5/5.12.4/unicore/lib/Ccc -L/opt/local/lib/perl5/5.12.4/unicore/lib/CE -L/opt/local/lib/perl5/5.12.4/unicore/lib/CI -L/opt/local/lib/perl5/5.12.4/unicore/lib/CompEx -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWCF -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWCM -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWKCF -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWL -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWT -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWU -L/opt/local/lib/perl5/5.12.4/unicore/lib/Dash -L/opt/local/lib/perl5/5.12.4/unicore/lib/Dep -L/opt/local/lib/perl5/5.12.4/unicore/lib/DI -L/opt/local/lib/perl5/5.12.4/unicore/lib/Dia -L/opt/local/lib/perl5/5.12.4/unicore/lib/Dt -L/opt/local/lib/perl5/5.12.4/unicore/lib/Ea -L/opt/local/lib/perl5/5.12.4/unicore/lib/Ext -L/opt/local/lib/perl5/5.12.4/unicore/lib/Gc -L/opt/local/lib/perl5/5.12.4/unicore/lib/GCB -L/opt/local/lib/perl5/5.12.4/unicore/lib/GrBase -L/opt/local/lib/perl5/5.12.4/unicore/lib/GrExt -L/opt/local/lib/perl5/5.12.4/unicore/lib/Hex -L/opt/local/lib/perl5/5.12.4/unicore/lib/Hst -L/opt/local/lib/perl5/5.12.4/unicore/lib/Hyphen -L/opt/local/lib/perl5/5.12.4/unicore/lib/IDC -L/opt/local/lib/perl5/5.12.4/unicore/lib/Ideo -L/opt/local/lib/perl5/5.12.4/unicore/lib/IDS -L/opt/local/lib/perl5/5.12.4/unicore/lib/IDSB -L/opt/local/lib/perl5/5.12.4/unicore/lib/IDST -L/opt/local/lib/perl5/5.12.4/unicore/lib/In -L/opt/local/lib/perl5/5.12.4/unicore/lib/Jg -L/opt/local/lib/perl5/5.12.4/unicore/lib/JoinC -L/opt/local/lib/perl5/5.12.4/unicore/lib/Jt -L/opt/local/lib/perl5/5.12.4/unicore/lib/Lb -L/opt/local/lib/perl5/5.12.4/unicore/lib/LOE -L/opt/local/lib/perl5/5.12.4/unicore/lib/Lower -L/opt/local/lib/perl5/5.12.4/unicore/lib/Math -L/opt/local/lib/perl5/5.12.4/unicore/lib/NChar -L/opt/local/lib/perl5/5.12.4/unicore/lib/NFCQC -L/opt/local/lib/perl5/5.12.4/unicore/lib/NFDQC -L/opt/local/lib/perl5/5.12.4/unicore/lib/NFKCQC -L/opt/local/lib/perl5/5.12.4/unicore/lib/NFKDQC -L/opt/local/lib/perl5/5.12.4/unicore/lib/Nt -L/opt/local/lib/perl5/5.12.4/unicore/lib/Nv -L/opt/local/lib/perl5/5.12.4/unicore/lib/OAlpha -L/opt/local/lib/perl5/5.12.4/unicore/lib/ODI -L/opt/local/lib/perl5/5.12.4/unicore/lib/OGrExt -L/opt/local/lib/perl5/5.12.4/unicore/lib/OIDC -L/opt/local/lib/perl5/5.12.4/unicore/lib/OIDS -L/opt/local/lib/perl5/5.12.4/unicore/lib/OLower -L/opt/local/lib/perl5/5.12.4/unicore/lib/OMath -L/opt/local/lib/perl5/5.12.4/unicore/lib/OUpper -L/opt/local/lib/perl5/5.12.4/unicore/lib/PatSyn -L/opt/local/lib/perl5/5.12.4/unicore/lib/PatWS -L/opt/local/lib/perl5/5.12.4/unicore/lib/Perl -L/opt/local/lib/perl5/5.12.4/unicore/lib/QMark -L/opt/local/lib/perl5/5.12.4/unicore/lib/Radical -L/opt/local/lib/perl5/5.12.4/unicore/lib/SB -L/opt/local/lib/perl5/5.12.4/unicore/lib/Sc -L/opt/local/lib/perl5/5.12.4/unicore/lib/SD -L/opt/local/lib/perl5/5.12.4/unicore/lib/Space -L/opt/local/lib/perl5/5.12.4/unicore/lib/STerm -L/opt/local/lib/perl5/5.12.4/unicore/lib/Term -L/opt/local/lib/perl5/5.12.4/unicore/lib/UIdeo -L/opt/local/lib/perl5/5.12.4/unicore/lib/Upper -L/opt/local/lib/perl5/5.12.4/unicore/lib/VS -L/opt/local/lib/perl5/5.12.4/unicore/lib/WB -L/opt/local/lib/perl5/5.12.4/unicore/lib/XIDC -L/opt/local/lib/perl5/5.12.4/unicore/lib/XIDS -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/auto -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/Locale -L/opt/local/lib/perl5/5.12.4/App/Prove/State/Result -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals/Source/SQLite -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Shell/Default/Plugins -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress/Raw -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress/Zlib -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Data/Dumper -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Devel/DProf -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Devel/Peek -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Devel/PPPort -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Digest/MD5 -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Digest/SHA -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/Byte -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/CN -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/EBCDIC -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/JP -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/KR -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/Symbol -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/TW -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/Unicode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/File/Glob -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Filter/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Hash/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/I18N/Langinfo -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/IPC/SysV -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/List/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Math/BigInt -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/MIME/Base64 -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/PerlIO/encoding -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/PerlIO/scalar -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/PerlIO/via -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/POSIX/SigAction -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/POSIX/SigRt -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Sys/Hostname -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Sys/Syslog -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Text/Soundex -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/threads/shared -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Time/HiRes -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Time/Piece -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Unicode/Normalize -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/MIME/Header -L/opt/local/lib/perl5/5.12.4/ExtUtils/CBuilder/Platform/Windows -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/auto/Locale -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress/Raw/Bzip2 -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress/Raw/Zlib -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Filter/Util/Call -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Hash/Util/FieldHash -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Math/BigInt/FastCalc -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/auto/Locale/gettext -F/myPrograms/OpenKinect/build/Debug -filelist /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/i386/OpenKinect.LinkFileList -mmacosx-version-min=10.6 -lHalf.6.0.0 -lIex.6.0.0 -lIlmImf.6.0.0 -lIlmThread.6.0.0 -lImath.6.0.0 -lfreenect -lfreenect_sync -lfreenect -lfreenect_sync -lfreenect -lfreenect -lfreenect_sync -lfreenect -framework GLUT -framework OpenGL -lopencv_photo.2.4 -lopencv_imgproc.2.4 -lopencv_core.2.4 -lopencv_calib3d.2.4 -lopencv_highgui.2.4.3 -lopencv_video.2.4.3 -lopencv_videostab -lopencv_ts -lopencv_stitching -lopencv_objdetect -lopencv_nonfree -lopencv_ml -lopencv_legacy -lopencv_gpu -lopencv_flann -lopencv_features2d -lopencv_contrib -o /myPrograms/OpenKinect/build/Debug/OpenKinect1#
+
+CLd /myPrograms/OpenKinect/build/Debug/OpenKinect normal x86_64
+s382192110.159961
+e382192110.217693
+r1
+xLd
+x/myPrograms/OpenKinect/build/Debug/OpenKinect
+xnormal
+xx86_64
+lSLF07#2@50"Link /myPrograms/OpenKinect/build/Debug/OpenKinect382192110#382192110#0(0"0(0#0#0"8618904960#20250"    cd /myPrograms/OpenKinect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/OpenKinect/build/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Release -L/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug -L/libusb-7da756e/openC/libfreenect/build/lib -L/opt/local/lib -L/opt/local/lib/cmake -L/opt/local/lib/db46 -L/opt/local/lib/engines -L/opt/local/lib/gettext -L/opt/local/lib/help2man -L/opt/local/lib/ImageMagick-6.8.0 -L/opt/local/lib/jack -L/opt/local/lib/perl5 -L/opt/local/lib/pkgconfig -L/opt/local/lib/python2.7 -L/opt/local/lib/terminfo -L/opt/local/lib/X11 -L/opt/local/lib/ImageMagick-6.8.0/config -L/opt/local/lib/ImageMagick-6.8.0/modules-Q16 -L/opt/local/lib/perl5/5.12.4 -L/opt/local/lib/perl5/vendor_perl -L/opt/local/lib/python2.7/site-packages -L/opt/local/lib/terminfo/31 -L/opt/local/lib/terminfo/32 -L/opt/local/lib/terminfo/33 -L/opt/local/lib/terminfo/34 -L/opt/local/lib/terminfo/35 -L/opt/local/lib/terminfo/36 -L/opt/local/lib/terminfo/37 -L/opt/local/lib/terminfo/38 -L/opt/local/lib/terminfo/39 -L/opt/local/lib/terminfo/41 -L/opt/local/lib/terminfo/45 -L/opt/local/lib/terminfo/4c -L/opt/local/lib/terminfo/4d -L/opt/local/lib/terminfo/4e -L/opt/local/lib/terminfo/50 -L/opt/local/lib/terminfo/51 -L/opt/local/lib/terminfo/58 -L/opt/local/lib/terminfo/61 -L/opt/local/lib/terminfo/62 -L/opt/local/lib/terminfo/63 -L/opt/local/lib/terminfo/64 -L/opt/local/lib/terminfo/65 -L/opt/local/lib/terminfo/66 -L/opt/local/lib/terminfo/67 -L/opt/local/lib/terminfo/68 -L/opt/local/lib/terminfo/69 -L/opt/local/lib/terminfo/6a -L/opt/local/lib/terminfo/6b -L/opt/local/lib/terminfo/6c -L/opt/local/lib/terminfo/6d -L/opt/local/lib/terminfo/6e -L/opt/local/lib/terminfo/6f -L/opt/local/lib/terminfo/70 -L/opt/local/lib/terminfo/71 -L/opt/local/lib/terminfo/72 -L/opt/local/lib/terminfo/73 -L/opt/local/lib/terminfo/74 -L/opt/local/lib/terminfo/75 -L/opt/local/lib/terminfo/76 -L/opt/local/lib/terminfo/77 -L/opt/local/lib/terminfo/78 -L/opt/local/lib/terminfo/7a -L/opt/local/lib/ImageMagick-6.8.0/modules-Q16/coders -L/opt/local/lib/ImageMagick-6.8.0/modules-Q16/filters -L/opt/local/lib/perl5/5.12.4/App -L/opt/local/lib/perl5/5.12.4/Archive -L/opt/local/lib/perl5/5.12.4/Attribute -L/opt/local/lib/perl5/5.12.4/autodie -L/opt/local/lib/perl5/5.12.4/B -L/opt/local/lib/perl5/5.12.4/Carp -L/opt/local/lib/perl5/5.12.4/CGI -L/opt/local/lib/perl5/5.12.4/Class -L/opt/local/lib/perl5/5.12.4/Compress -L/opt/local/lib/perl5/5.12.4/Config -L/opt/local/lib/perl5/5.12.4/CPAN -L/opt/local/lib/perl5/5.12.4/CPANPLUS -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level -L/opt/local/lib/perl5/5.12.4/DBM_Filter -L/opt/local/lib/perl5/5.12.4/Devel -L/opt/local/lib/perl5/5.12.4/Digest -L/opt/local/lib/perl5/5.12.4/Encode -L/opt/local/lib/perl5/5.12.4/encoding -L/opt/local/lib/perl5/5.12.4/Exporter -L/opt/local/lib/perl5/5.12.4/ExtUtils -L/opt/local/lib/perl5/5.12.4/File -L/opt/local/lib/perl5/5.12.4/Filter -L/opt/local/lib/perl5/5.12.4/Getopt -L/opt/local/lib/perl5/5.12.4/I18N -L/opt/local/lib/perl5/5.12.4/inc -L/opt/local/lib/perl5/5.12.4/IO -L/opt/local/lib/perl5/5.12.4/IPC -L/opt/local/lib/perl5/5.12.4/Locale -L/opt/local/lib/perl5/5.12.4/Log -L/opt/local/lib/perl5/5.12.4/Math -L/opt/local/lib/perl5/5.12.4/Memoize -L/opt/local/lib/perl5/5.12.4/Module -L/opt/local/lib/perl5/5.12.4/Net -L/opt/local/lib/perl5/5.12.4/Object -L/opt/local/lib/perl5/5.12.4/overload -L/opt/local/lib/perl5/5.12.4/Package -L/opt/local/lib/perl5/5.12.4/Params -L/opt/local/lib/perl5/5.12.4/Parse -L/opt/local/lib/perl5/5.12.4/PerlIO -L/opt/local/lib/perl5/5.12.4/Pod -L/opt/local/lib/perl5/5.12.4/pods -L/opt/local/lib/perl5/5.12.4/Search -L/opt/local/lib/perl5/5.12.4/TAP -L/opt/local/lib/perl5/5.12.4/Term -L/opt/local/lib/perl5/5.12.4/Test -L/opt/local/lib/perl5/5.12.4/Text -L/opt/local/lib/perl5/5.12.4/Thread -L/opt/local/lib/perl5/5.12.4/Tie -L/opt/local/lib/perl5/5.12.4/Time -L/opt/local/lib/perl5/5.12.4/Unicode -L/opt/local/lib/perl5/5.12.4/unicore -L/opt/local/lib/perl5/5.12.4/User -L/opt/local/lib/perl5/5.12.4/version -L/opt/local/lib/perl5/5.12.4/warnings -L/opt/local/lib/perl5/vendor_perl/5.12.4 -L/opt/local/lib/python2.7/site-packages/xcbgen -L/opt/local/lib/perl5/5.12.4/App/Prove -L/opt/local/lib/perl5/5.12.4/Archive/Tar -L/opt/local/lib/perl5/5.12.4/autodie/exception -L/opt/local/lib/perl5/5.12.4/B/Lint -L/opt/local/lib/perl5/5.12.4/CPAN/API -L/opt/local/lib/perl5/5.12.4/CPAN/Exception -L/opt/local/lib/perl5/5.12.4/CPAN/FTP -L/opt/local/lib/perl5/5.12.4/CPAN/Kwalify -L/opt/local/lib/perl5/5.12.4/CPAN/LWP -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Backend -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Configure -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Dist -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Module -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Shell -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/B -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Compress -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/CORE -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Data -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Devel -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Digest -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Filter -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Hash -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/I18N -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/IO -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/IPC -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/List -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Math -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/MIME -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/PerlIO -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Scalar -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Sys -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Text -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/threads -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Time -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Unicode -L/opt/local/lib/perl5/5.12.4/ExtUtils/CBuilder -L/opt/local/lib/perl5/5.12.4/ExtUtils/Command -L/opt/local/lib/perl5/5.12.4/ExtUtils/Constant -L/opt/local/lib/perl5/5.12.4/ExtUtils/Liblist -L/opt/local/lib/perl5/5.12.4/ExtUtils/MakeMaker -L/opt/local/lib/perl5/5.12.4/I18N/LangTags -L/opt/local/lib/perl5/5.12.4/inc/latest -L/opt/local/lib/perl5/5.12.4/IO/Compress -L/opt/local/lib/perl5/5.12.4/IO/Uncompress -L/opt/local/lib/perl5/5.12.4/Locale/Maketext -L/opt/local/lib/perl5/5.12.4/Log/Message -L/opt/local/lib/perl5/5.12.4/Math/BigFloat -L/opt/local/lib/perl5/5.12.4/Math/BigInt -L/opt/local/lib/perl5/5.12.4/Module/Build -L/opt/local/lib/perl5/5.12.4/Module/Load -L/opt/local/lib/perl5/5.12.4/Module/Pluggable -L/opt/local/lib/perl5/5.12.4/Net/FTP -L/opt/local/lib/perl5/5.12.4/Parse/CPAN -L/opt/local/lib/perl5/5.12.4/PerlIO/via -L/opt/local/lib/perl5/5.12.4/Pod/Perldoc -L/opt/local/lib/perl5/5.12.4/Pod/Simple -L/opt/local/lib/perl5/5.12.4/Pod/Text -L/opt/local/lib/perl5/5.12.4/TAP/Formatter -L/opt/local/lib/perl5/5.12.4/TAP/Parser -L/opt/local/lib/perl5/5.12.4/Term/UI -L/opt/local/lib/perl5/5.12.4/Test/Builder -L/opt/local/lib/perl5/5.12.4/Tie/Hash -L/opt/local/lib/perl5/5.12.4/Unicode/Collate -L/opt/local/lib/perl5/5.12.4/unicore/auxiliary -L/opt/local/lib/perl5/5.12.4/unicore/extracted -L/opt/local/lib/perl5/5.12.4/unicore/lib -L/opt/local/lib/perl5/5.12.4/unicore/To -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level -L/opt/local/lib/perl5/5.12.4/App/Prove/State -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Dist/Build -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals/Constants -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals/Source -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals/Utils -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Module/Author -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Shell/Default -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/attributes -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/B -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Cwd -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Data -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/DB_File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Devel -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Digest -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/DynaLoader -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Fcntl -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Filter -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/GDBM_File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Hash -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/I18N -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/IO -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/IPC -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/List -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Math -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/MIME -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/mro -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/NDBM_File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Opcode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/PerlIO -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/POSIX -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/re -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/sdbm -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/SDBM_File -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Socket -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Storable -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Sys -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Text -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/threads -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Time -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Unicode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Compress/Raw -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/CN -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/JP -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/KR -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/MIME -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/Unicode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/File/Spec -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Filter/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Hash/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/IO/Socket -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/List/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Math/BigInt -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Scalar/Util -L/opt/local/lib/perl5/5.12.4/ExtUtils/CBuilder/Platform -L/opt/local/lib/perl5/5.12.4/IO/Compress/Adapter -L/opt/local/lib/perl5/5.12.4/IO/Compress/Base -L/opt/local/lib/perl5/5.12.4/IO/Compress/Gzip -L/opt/local/lib/perl5/5.12.4/IO/Compress/Zip -L/opt/local/lib/perl5/5.12.4/IO/Compress/Zlib -L/opt/local/lib/perl5/5.12.4/IO/Uncompress/Adapter -L/opt/local/lib/perl5/5.12.4/Module/Build/Platform -L/opt/local/lib/perl5/5.12.4/TAP/Formatter/Console -L/opt/local/lib/perl5/5.12.4/TAP/Formatter/File -L/opt/local/lib/perl5/5.12.4/TAP/Parser/Iterator -L/opt/local/lib/perl5/5.12.4/TAP/Parser/Result -L/opt/local/lib/perl5/5.12.4/TAP/Parser/Scheduler -L/opt/local/lib/perl5/5.12.4/TAP/Parser/Source -L/opt/local/lib/perl5/5.12.4/TAP/Parser/YAMLish -L/opt/local/lib/perl5/5.12.4/Test/Builder/Tester -L/opt/local/lib/perl5/5.12.4/unicore/lib/Age -L/opt/local/lib/perl5/5.12.4/unicore/lib/AHex -L/opt/local/lib/perl5/5.12.4/unicore/lib/Alpha -L/opt/local/lib/perl5/5.12.4/unicore/lib/Bc -L/opt/local/lib/perl5/5.12.4/unicore/lib/BidiC -L/opt/local/lib/perl5/5.12.4/unicore/lib/BidiM -L/opt/local/lib/perl5/5.12.4/unicore/lib/Blk -L/opt/local/lib/perl5/5.12.4/unicore/lib/Cased -L/opt/local/lib/perl5/5.12.4/unicore/lib/Ccc -L/opt/local/lib/perl5/5.12.4/unicore/lib/CE -L/opt/local/lib/perl5/5.12.4/unicore/lib/CI -L/opt/local/lib/perl5/5.12.4/unicore/lib/CompEx -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWCF -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWCM -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWKCF -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWL -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWT -L/opt/local/lib/perl5/5.12.4/unicore/lib/CWU -L/opt/local/lib/perl5/5.12.4/unicore/lib/Dash -L/opt/local/lib/perl5/5.12.4/unicore/lib/Dep -L/opt/local/lib/perl5/5.12.4/unicore/lib/DI -L/opt/local/lib/perl5/5.12.4/unicore/lib/Dia -L/opt/local/lib/perl5/5.12.4/unicore/lib/Dt -L/opt/local/lib/perl5/5.12.4/unicore/lib/Ea -L/opt/local/lib/perl5/5.12.4/unicore/lib/Ext -L/opt/local/lib/perl5/5.12.4/unicore/lib/Gc -L/opt/local/lib/perl5/5.12.4/unicore/lib/GCB -L/opt/local/lib/perl5/5.12.4/unicore/lib/GrBase -L/opt/local/lib/perl5/5.12.4/unicore/lib/GrExt -L/opt/local/lib/perl5/5.12.4/unicore/lib/Hex -L/opt/local/lib/perl5/5.12.4/unicore/lib/Hst -L/opt/local/lib/perl5/5.12.4/unicore/lib/Hyphen -L/opt/local/lib/perl5/5.12.4/unicore/lib/IDC -L/opt/local/lib/perl5/5.12.4/unicore/lib/Ideo -L/opt/local/lib/perl5/5.12.4/unicore/lib/IDS -L/opt/local/lib/perl5/5.12.4/unicore/lib/IDSB -L/opt/local/lib/perl5/5.12.4/unicore/lib/IDST -L/opt/local/lib/perl5/5.12.4/unicore/lib/In -L/opt/local/lib/perl5/5.12.4/unicore/lib/Jg -L/opt/local/lib/perl5/5.12.4/unicore/lib/JoinC -L/opt/local/lib/perl5/5.12.4/unicore/lib/Jt -L/opt/local/lib/perl5/5.12.4/unicore/lib/Lb -L/opt/local/lib/perl5/5.12.4/unicore/lib/LOE -L/opt/local/lib/perl5/5.12.4/unicore/lib/Lower -L/opt/local/lib/perl5/5.12.4/unicore/lib/Math -L/opt/local/lib/perl5/5.12.4/unicore/lib/NChar -L/opt/local/lib/perl5/5.12.4/unicore/lib/NFCQC -L/opt/local/lib/perl5/5.12.4/unicore/lib/NFDQC -L/opt/local/lib/perl5/5.12.4/unicore/lib/NFKCQC -L/opt/local/lib/perl5/5.12.4/unicore/lib/NFKDQC -L/opt/local/lib/perl5/5.12.4/unicore/lib/Nt -L/opt/local/lib/perl5/5.12.4/unicore/lib/Nv -L/opt/local/lib/perl5/5.12.4/unicore/lib/OAlpha -L/opt/local/lib/perl5/5.12.4/unicore/lib/ODI -L/opt/local/lib/perl5/5.12.4/unicore/lib/OGrExt -L/opt/local/lib/perl5/5.12.4/unicore/lib/OIDC -L/opt/local/lib/perl5/5.12.4/unicore/lib/OIDS -L/opt/local/lib/perl5/5.12.4/unicore/lib/OLower -L/opt/local/lib/perl5/5.12.4/unicore/lib/OMath -L/opt/local/lib/perl5/5.12.4/unicore/lib/OUpper -L/opt/local/lib/perl5/5.12.4/unicore/lib/PatSyn -L/opt/local/lib/perl5/5.12.4/unicore/lib/PatWS -L/opt/local/lib/perl5/5.12.4/unicore/lib/Perl -L/opt/local/lib/perl5/5.12.4/unicore/lib/QMark -L/opt/local/lib/perl5/5.12.4/unicore/lib/Radical -L/opt/local/lib/perl5/5.12.4/unicore/lib/SB -L/opt/local/lib/perl5/5.12.4/unicore/lib/Sc -L/opt/local/lib/perl5/5.12.4/unicore/lib/SD -L/opt/local/lib/perl5/5.12.4/unicore/lib/Space -L/opt/local/lib/perl5/5.12.4/unicore/lib/STerm -L/opt/local/lib/perl5/5.12.4/unicore/lib/Term -L/opt/local/lib/perl5/5.12.4/unicore/lib/UIdeo -L/opt/local/lib/perl5/5.12.4/unicore/lib/Upper -L/opt/local/lib/perl5/5.12.4/unicore/lib/VS -L/opt/local/lib/perl5/5.12.4/unicore/lib/WB -L/opt/local/lib/perl5/5.12.4/unicore/lib/XIDC -L/opt/local/lib/perl5/5.12.4/unicore/lib/XIDS -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/auto -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/Locale -L/opt/local/lib/perl5/5.12.4/App/Prove/State/Result -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Internals/Source/SQLite -L/opt/local/lib/perl5/5.12.4/CPANPLUS/Shell/Default/Plugins -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress/Raw -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress/Zlib -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Data/Dumper -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Devel/DProf -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Devel/Peek -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Devel/PPPort -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Digest/MD5 -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Digest/SHA -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/Byte -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/CN -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/EBCDIC -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/JP -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/KR -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/Symbol -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/TW -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Encode/Unicode -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/File/Glob -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Filter/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Hash/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/I18N/Langinfo -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/IPC/SysV -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/List/Util -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Math/BigInt -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/MIME/Base64 -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/PerlIO/encoding -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/PerlIO/scalar -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/PerlIO/via -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/POSIX/SigAction -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/POSIX/SigRt -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Sys/Hostname -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Sys/Syslog -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Text/Soundex -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/threads/shared -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Time/HiRes -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Time/Piece -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Unicode/Normalize -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/Encode/MIME/Header -L/opt/local/lib/perl5/5.12.4/ExtUtils/CBuilder/Platform/Windows -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/auto/Locale -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress/Raw/Bzip2 -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Compress/Raw/Zlib -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Filter/Util/Call -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Hash/Util/FieldHash -L/opt/local/lib/perl5/5.12.4/darwin-thread-multi-2level/auto/Math/BigInt/FastCalc -L/opt/local/lib/perl5/vendor_perl/5.12.4/darwin-thread-multi-2level/auto/Locale/gettext -L/opt/libjpeg-turbo/lib -F/myPrograms/OpenKinect/build/Debug -filelist /myPrograms/OpenKinect/build/OpenKinect.build/Debug/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList -mmacosx-version-min=10.6 -lHalf.6.0.0 -lIex.6.0.0 -lIlmImf.6.0.0 -lIlmThread.6.0.0 -lImath.6.0.0 -lfreenect -lfreenect_sync -lfreenect -lfreenect_sync -lfreenect -lfreenect -lfreenect_sync -lfreenect -framework GLUT -framework OpenGL -ljpeg -o /myPrograms/OpenKinect/build/Debug/OpenKinect0#
+
