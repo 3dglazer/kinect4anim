@@ -65,6 +65,12 @@
 		D95D640C16C01A8E00510F01 /* QueueDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueueDemo.cpp; sourceTree = "<group>"; };
 		D95D641016C01EC600510F01 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
 		D95D641116C01EC600510F01 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		D9673D0C16E08E86005941F5 /* mtx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtx.h; sourceTree = "<group>"; };
+		D9673D0F16E08F45005941F5 /* RGBWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBWriter.h; sourceTree = "<group>"; };
+		D9673D1116E08FD1005941F5 /* DepthWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepthWriter.h; sourceTree = "<group>"; };
+		D9673D1416E09026005941F5 /* MyFreenectDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFreenectDevice.h; sourceTree = "<group>"; };
+		D9673D1616E0905C005941F5 /* RGBData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBData.h; sourceTree = "<group>"; };
+		D9673D1716E09088005941F5 /* DepthData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepthData.h; sourceTree = "<group>"; };
 		D9DE52F316C69772007D9578 /* libjpeg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjpeg.dylib; path = "/opt/libjpeg-turbo/lib/libjpeg.dylib"; sourceTree = "<absolute>"; };
 		D9DE52F616C6978F007D9578 /* writeJPEG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writeJPEG.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +137,12 @@
 				D95D640C16C01A8E00510F01 /* QueueDemo.cpp */,
 				08FB7796FE84155DC02AAC07 /* main.cpp */,
 				D9DE52F616C6978F007D9578 /* writeJPEG.h */,
+				D9673D0C16E08E86005941F5 /* mtx.h */,
+				D9673D0F16E08F45005941F5 /* RGBWriter.h */,
+				D9673D1116E08FD1005941F5 /* DepthWriter.h */,
+				D9673D1416E09026005941F5 /* MyFreenectDevice.h */,
+				D9673D1616E0905C005941F5 /* RGBData.h */,
+				D9673D1716E09088005941F5 /* DepthData.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";

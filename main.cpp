@@ -28,20 +28,10 @@
 #include "libfreenect.hpp"
 #include "libfreenect.h"
 #include "libfreenect_sync.h"
-#include <pthread.h>
 #include "libfreenect-registration.h"
+#include <pthread.h>
 
 
-//OpneEXR
-#include <exception>
-#include <ImfInputFile.h>
-#include <ImfRgbaFile.h>
-#include <ImfChannelList.h>
-#include <ImfFrameBuffer.h>
-#include <half.h>
-#include <ImfOutputFile.h>
-#include <ImfStringAttribute.h>
-#include <ImfArray.h>
 
 //Thread support
 #include "thread.h"
@@ -54,17 +44,17 @@
 #include <cmath>
 #include <vector>
 
-//jpeg writing capability
-#include "writeJPEG.h"
+//the main stuff
+#include "mtx.h"
+#include "RGBWriter.h"
+#include "DepthWriter.h"
+#include "MyFreenectDevice.h"
 
 // namespaces
-using namespace Imf;
-using namespace Imath;
 using namespace std;
 
 //help constants
 #define MAXQUEUESIZE 2000 // two thousand images in the queue at maxium, which is approximatelly one minute 
-#define MILIS2SECONDS 1.0/1000.0
 #define GRAYMAP 255.0/2048.0
 #define UINT8NORMALIZE 1.0/255.0
 //recording mode
@@ -92,8 +82,6 @@ const char sysSeparator =
 
 #define SPACEBAR 32
 
-
-
 #if !defined(_WIN32) && !defined(_WIN64) // Linux - Unix
 #  include <sys/time.h>
 typedef timeval sys_time_t;
@@ -112,163 +100,6 @@ inline long long time_to_msec(const sys_time_t& t) {
 }
 #endif
 
-
-
-// basicaly an image container
-class RGBData {
-public:
-	RGBData(uint8_t* rgbColor,long tmStamp,int width, int height):rgb(rgbColor),timeStamp(tmStamp),m_width(width),m_height(height){};
-	~RGBData(){
-		//printf("deleted rgbdata should free memory");
-		delete[] rgb;
-	};
-	uint8_t* getData(){
-		return rgb;
-	};
-	long getTimeStamp(){return timeStamp;};
-	int getWidth(){return this->m_width;};
-	int getHeight(){return this->m_height;};
-private:
-	uint8_t* rgb;
-	long timeStamp;
-	int m_width,m_height;
-};
-
-class DepthData {
-public:
-	DepthData(half* depthmm,long tmStamp):depthData(depthmm),timeStamp(tmStamp){};
-	~DepthData(){delete[] depthData;};
-	half* getData(){
-		return depthData;
-	};
-	long getTimeStamp(){return timeStamp;};
-private:
-	half* depthData;
-	long timeStamp;
-};
-
-
-//consumer thread which takes care of color info to jpg dumping
-class RGBWriter : public Thread {
-public:
-	RGBWriter(CQueue<RGBData*> &queue,string &filePath,int &jpegLib_Width,int &jpegLib_Height,int quality) : imageQueue(queue),fpth(filePath),jpgLib_imWidth(jpegLib_Width),jpgLib_imHeight(jpegLib_Height),m_quality(quality) {};
-	void* run() {
-		// Remove 1 item and process it. Blocks if no items are 
-        // available to process.
-		RGBData* item;
-        for (int i = 0;; i++) {
-			if (imageQueue.PopElement(item)) {
-				char *fn = new char[fpth.size() + 50];
-				sprintf(fn, "%skinectDump-%f.%s", &fpth[0], (float)item->getTimeStamp()*MILIS2SECONDS, "jpg");
-				writeJPG(fn, item->getData(), item->getWidth(), item->getHeight(), m_quality);
-				delete item;
-				delete[] fn;
-			}else {
-				usleep(30000); //just don't stress the processor if not needed
-			}
-		}
-		printf("What happened the writer has quit!\n");
-		return NULL;
-	};
-private:
-	CQueue<RGBData*> &imageQueue;
-	string fpth;// file path
-	int jpgLib_imWidth;
-	int jpgLib_imHeight;
-	int m_quality;
-	
-	void writeJPG(char fileName[],uint8_t* pixels,int width,int height,int quality){
-		if (pixels==NULL) {
-			return;
-		}
-		jpgLib_imWidth=width;
-		jpgLib_imHeight=height;
-		set_JPEG_data(pixels);
-		write_JPEG_file (fileName, quality);
-	}
-};
-
-class DepthWriter : public Thread {
-public:
-	~DepthWriter(){delete[] rgbaPixels;};
-	DepthWriter(CQueue<DepthData*> &queue,string &filePath,int width,int height,Compression comp) : imageQueue(queue),fpth(filePath),m_width(width),m_height(height),m_comp(comp) {
-	rgbaPixels=new Rgba[width*height];
-	};
-	void* run() {
-		// Remove 1 item and process it. Blocks if no items are 
-        // available to process.
-		DepthData* item;
-        for (int i = 0;; i++) {
-			if (imageQueue.PopElement(item)) {
-				char *fn = new char[fpth.size() + 50];
-				sprintf(fn, "%skinectDump-%f.%s", &fpth[0], (float)item->getTimeStamp()*MILIS2SECONDS, "exr");
-				writeEXR(fn, item->getData(), m_width, m_height, m_comp);
-				delete item;
-				delete[] fn;
-			}else {
-				usleep(30000); //just don't stress the processor if not needed
-			}
-		}
-		printf("What happened the writer has quit!\n");
-		return NULL;
-	};
-private:
-	CQueue<DepthData*> &imageQueue;
-	string fpth;// file path
-	int m_width;
-	int m_height;
-	Compression	m_comp;
-	Rgba* rgbaPixels;
-	//this would be the most efficient way to go it saves only one channel of half data, but Autodesk maya can't load it in and use it
-	void writeEXR(const char fileName[],const half* gPixels,int width,int height, Compression comp){
-		if (gPixels==NULL) {
-			return;
-		}		
-		Header header (width, height); // 1
-		header.channels().insert ("R", Channel (HALF)); // 2
-		header.compression() = comp;
-		OutputFile file (fileName, header); // 4
-		FrameBuffer frameBuffer; // 5
-		frameBuffer.insert ("R", // name // 6
-							Slice (HALF, // type // 7
-								   (char *) gPixels, // base // 8
-								   sizeof (*gPixels) * 1, // xStride// 9
-								   sizeof (*gPixels) * width)); // yStride// 10
-		file.setFrameBuffer (frameBuffer); // 16
-		file.writePixels (height); // 17
-	}
-	// work around using all three channels of RGB exr image. Thanks to compression it has got only marginal effect on the size and still Maya can load it in.
-//	void writeEXR(const char fileName[],const half* pixels,int width,int height, Compression comp){
-//		//printf("filename is %s",fileName);
-//		if (pixels==NULL) {
-//			return;
-//		}
-//		int sz=width*height;
-//		half data;
-//		for (int i=0; i<sz; ++i) {
-//			data=pixels[i];
-//			rgbaPixels[i].r=data;
-//			rgbaPixels[i].g=data;
-//			rgbaPixels[i].b=data;
-//			rgbaPixels[i].a=1.0;
-//		}
-//		int xOffset=0;
-//		int yOffset=0;
-//		Header hdr ((Box2i (V2i (0, 0),			// display window
-//							V2i (width - 1, height -1))),
-//					(Box2i (V2i (xOffset, yOffset),		// data window
-//							V2i (xOffset + width - 1, yOffset + height - 1))));
-//		hdr.compression() = comp;
-//		//WRITE_RGBA
-//		RgbaOutputFile file (fileName, hdr, WRITE_RGBA);
-//		file.setFrameBuffer (rgbaPixels, 1, width);
-//		file.writePixels (height);
-//	};
-	
-	
-};
-
-
 Rgba* createImage(int width, int height){
 	Rgba* dt=new Rgba[width*height];
 	for (int i=0; i<width*height; ++i) {
@@ -280,145 +111,6 @@ Rgba* createImage(int width, int height){
 	}
 	return dt;
 }
-
-class Mtx{
-public:
-	Mtx() {
-		pthread_mutex_init( &m_mutex, NULL );
-	}
-	void lock() {
-		pthread_mutex_lock( &m_mutex );
-	}
-	void unlock() {
-		pthread_mutex_unlock( &m_mutex );
-	}
-	
-	class ScopedLock
-	{
-		Mtx& _mutex;
-	public:
-		ScopedLock(Mtx& mutex)
-		: _mutex(mutex)
-		{
-			_mutex.lock();
-		}
-		~ScopedLock()
-		{
-			_mutex.unlock();
-		}
-	};
-private:
-	pthread_mutex_t m_mutex;
-};
-
-/* thanks to Yoda---- from IRC */
-class MyFreenectDevice : public Freenect::FreenectDevice {
-public:
-	MyFreenectDevice(freenect_context *_ctx, int _index)
-	: Freenect::FreenectDevice(_ctx, _index), m_buffer_depth(640*480*sizeof(uint16_t)),m_buffer_video(freenect_find_video_mode(FREENECT_RESOLUTION_MEDIUM, FREENECT_VIDEO_RGB).bytes), mm_depth(2048), m_depth_normalized(2048), m_new_rgb_frame(false), m_new_depth_frame(false)
-	{
-		float min=100000000;
-		float max=-100000000;
-		
-		printf("Depth classical : \n");
-		for( unsigned int i = 0 ; i < 2048 ; i++) {
-			mm_depth[i] = this->rawDepthToMeters(i);
-			if (mm_depth[i]<min) {
-				min=mm_depth[i];
-			}
-			if (mm_depth[i]>max) {
-				max=mm_depth[i];
-			}
-			printf(" %f",(float)mm_depth[i]);
-		}
-		printf("\nfound min=%f max=%f.\n",min,max);
-		float szconvert=1.0/((-1.0*min)+max);
-		printf("szconvert %f",szconvert);
-		printf("\n\nDepth normalize: \n");
-		for( unsigned int i = 0 ; i < 2048 ; i++) {
-			m_depth_normalized[i] = (this->rawDepthToMeters(i)-min)*szconvert;
-			printf(" %f",(float)m_depth_normalized[i]);
-		}
-		normalized=false;
-	}
-	//~MyFreenectDevice(){}
-	// Do not call directly even in child
-	void VideoCallback(void* _rgb, uint32_t timestamp) {
-		Mtx::ScopedLock lock(m_rgb_mutex);
-		uint8_t* rgb = static_cast<uint8_t*>(_rgb);
-		std::copy(rgb, rgb+getVideoBufferSize(), m_buffer_video.begin());
-		m_new_rgb_frame = true;
-	};
-	// Do not call directly even in child
-	void DepthCallback(void* _depth, uint32_t timestamp) {
-		Mtx::ScopedLock lock(m_depth_mutex);
-		uint16_t* depth = static_cast<uint16_t*>(_depth);
-		if (this->normalized) {
-			for( unsigned int i = 0 ; i < 640*480 ; ++i) {
-				m_buffer_depth[i]=mm_depth[depth[i]]*1.0/200.0;
-				//m_buffer_depth[i]=m_depth_normalized[depth[i]];
-			}
-		}else {
-			for( unsigned int i = 0 ; i < 640*480 ; ++i) {
-				m_buffer_depth[i]=mm_depth[depth[i]];
-			}
-		}
-		m_new_depth_frame = true;
-	}
-	// converts 11bit raw depth data from kinect to depth in mm
-	inline float rawDepthToMeters(int depthValue) {
-		
-//		for (size_t i=0; i<2048; i++)
-//		{
-//			const float k1 = 1.1863;
-//			const float k2 = 2842.5;
-//			const float k3 = 0.1236;
-//			const float depth = k3 * tanf(i/k2 + k1);
-//			t_gamma[i] = depth;
-//		}
-		
-
-		
-		if (depthValue < 2047) {
-			//return (float) (1.0 / ((double)(depthValue) * -0.0030711016 + 3.3309495161));
-			const float k1 = 1.1863;
-			const float k2 = 2842.5;
-			const float k3 = 0.1236;
-			return k3 * tanf(depthValue/k2 + k1);
-		}
-		return 0.0f;
-	}
-	bool getRGB8bit(std::vector<uint8_t> &buffer) {
-		Mtx::ScopedLock lock(m_rgb_mutex);
-		if (!m_new_rgb_frame)
-			return false;
-		buffer.swap(m_buffer_video);
-		m_new_rgb_frame = false;
-		return true;
-	}
-	
-	bool getDepth16bit(std::vector<half> &buffer) {
-		 Mtx::ScopedLock lock(m_depth_mutex);
-		 if (!m_new_depth_frame)
-		 return false;
-		 buffer.swap(m_buffer_depth);
-		 m_new_depth_frame = false;
-		 return true;
-	}
-	void depthNormalized(){this->normalized=true;};
-	void depthInMM(){this->normalized=false;};
-private:
-	bool normalized; 
-	//will store only raw data from kinect
-	std::vector<half> m_buffer_depth;
-	std::vector<uint8_t> m_buffer_video;
-	Mtx m_rgb_mutex;
-	Mtx m_depth_mutex;
-	bool m_new_rgb_frame;
-	bool m_new_depth_frame;
-	std::vector<half>mm_depth;
-	std::vector<half>m_depth_normalized;
-};
 
 Freenect::Freenect freenect;
 freenect_video_format requested_format(FREENECT_VIDEO_RGB);
@@ -701,8 +393,6 @@ void *gl_threadfunc(void *arg)
 	return NULL;
 }
 
-// mel bych udelat dva image writery, jeden pro depth a jeden pro color, dal bych mel udelat dve image data a dve fronty. Mozna bych mel includovat opencv a ukladat jpg
-
 // =============== END of GL Magic ==================
 
 //enum Compression
@@ -727,7 +417,7 @@ void *gl_threadfunc(void *arg)
 //	
 //    NUM_COMPRESSION_METHODS	// number of different compression methods
 //};
-
+/*
 void calibrateRGBToDepth(uint8_t* rgb_raw, uint8_t* rgb_registered){
     
 	freenect_registration* registration = new freenect_registration();
@@ -760,6 +450,7 @@ void calibrateRGBToDepth(uint8_t* rgb_raw, uint8_t* rgb_registered){
 		rgb_registered[index+2] = rgb_raw[cindex+2];
 	}
 }
+*/
 
 int main(int argc, char **argv) {
 	//=====g

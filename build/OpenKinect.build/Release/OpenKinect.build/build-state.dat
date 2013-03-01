@@ -1,11 +1,13 @@
 TOpenKinect
 v7
 r0
-t382394915.076787
+t383816262.263906
 cCheck dependencies
 cCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o /myPrograms/OpenKinect/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_0
 cCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o /myPrograms/OpenKinect/QueueDemo.cpp normal x86_64 c++ com.apple.compilers.gcc.4_0
 cCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/thread.o /myPrograms/OpenKinect/thread.cpp normal x86_64 c++ com.apple.compilers.gcc.4_0
+cLd /myPrograms/OpenKinect/build/Release/OpenKinect normal x86_64
+cGenerateDSYMFile /myPrograms/OpenKinect/build/Release/OpenKinect.dSYM /myPrograms/OpenKinect/build/Release/OpenKinect
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004D5A274300000000000000EE
@@ -249,6 +251,16 @@ t1298031490
 s4010
 i<stdlib.h>
 
+N/myPrograms/OpenKinect/DepthWriter.h
+c0000000051305E310000000000000847
+t1362124337
+s2119
+
+N/myPrograms/OpenKinect/MyFreenectDevice.h
+c00000000513058BF0000000000000BE2
+t1362122943
+s3042
+
 N/myPrograms/OpenKinect/Queue.h
 c00000000511025700000000000000832
 t1360012656
@@ -259,6 +271,11 @@ c00000000510FE9AD0000000000000BE0
 t1359997357
 s3040
 i"Queue.h"
+
+N/myPrograms/OpenKinect/RGBWriter.h
+c0000000051305A0D00000000000005EA
+t1362123277
+s1514
 
 N/myPrograms/OpenKinect/TSQueue.h
 c00000000510EFF440000000000003B23
@@ -308,8 +325,8 @@ t1360335964
 s1276
 
 N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o
-t2
-s0
+t1362123461
+s335616
 
 N/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/openglRenderer.o
 t1360187544
@@ -324,31 +341,22 @@ t1360335964
 s9496
 
 N/myPrograms/OpenKinect/build/Release/OpenKinect
-t1360701538
-s77248
+t1362123462
+s77552
 
 N/myPrograms/OpenKinect/build/Release/OpenKinect.dSYM
-t1360701538
+t1362123462
 s102
 
 N/myPrograms/OpenKinect/main.cpp
-c00000000511B62A200000000000056F9
-t1360749218
-s22265
+c0000000051305E4E00000000000033EF
+t1362124366
+s13295
 i"libfreenect.hpp"
 i"libfreenect.h"
 i"libfreenect_sync.h"
-i<pthread.h>
 i"libfreenect-registration.h"
-i<exception>
-i<ImfInputFile.h>
-i<ImfRgbaFile.h>
-i<ImfChannelList.h>
-i<ImfFrameBuffer.h>
-i<half.h>
-i<ImfOutputFile.h>
-i<ImfStringAttribute.h>
-i<ImfArray.h>
+i<pthread.h>
 i"thread.h"
 i"Queue.h"
 i<stdio.h>
@@ -356,7 +364,10 @@ i<string>
 i<iostream>
 i<cmath>
 i<vector>
-i"writeJPEG.h"
+i"mtx.h"
+i"RGBWriter.h"
+i"DepthWriter.h"
+i"MyFreenectDevice.h"
 i<GLUT/glut.h>
 i<OpenGL/gl.h>
 i<OpenGL/glu.h>
@@ -365,6 +376,12 @@ i<GL/gl.h>
 i<GL/glu.h>
 i<sys/time.h>
 i<sys/timeb.h>
+
+N/myPrograms/OpenKinect/mtx.h
+c000000005130574900000000000001B5
+t1362122569
+s437
+i<pthread.h>
 
 N/myPrograms/OpenKinect/openglRenderer.cpp
 c000000005112D098000000000000008C
@@ -984,7 +1001,7 @@ s17695
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies382394914#382394914#0(0"0(0#1#0"8653480032#0"0#
+lSLF07#2@18"Check dependencies383816260#383816260#0(0"0(0#1#0"8611954368#0"0#
 
 CCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/QueueDemo.o /myPrograms/OpenKinect/QueueDemo.cpp normal i386 c++ com.apple.compilers.gcc.4_0
 s382028765.671168
@@ -1080,9 +1097,9 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@44"Compile /myPrograms/OpenKinect/QueueDemo.cpp381916621#381916622#0(0"0(0#0#36"/myPrograms/OpenKinect/QueueDemo.cpp8642866432#3746"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Release -I/opt/local/include -I/opt/local/include/cppunit -I/opt/local/include/db46 -I/opt/local/include/dirac -I/opt/local/include/editline -I/opt/local/include/FLAC -I/opt/local/include/FLAC++ -I/opt/local/include/freetype2 -I/opt/local/include/jack -I/opt/local/include/lame -I/opt/local/include/libavcodec -I/opt/local/include/libavdevice -I/opt/local/include/libavfilter -I/opt/local/include/libavformat -I/opt/local/include/libavutil -I/opt/local/include/libexslt -I/opt/local/include/libltdl -I/opt/local/include/libmodplug -I/opt/local/include/libpng15 -I/opt/local/include/libpostproc -I/opt/local/include/libswresample -I/opt/local/include/libswscale -I/opt/local/include/libusb-1.0 -I/opt/local/include/libxml2 -I/opt/local/include/libxslt -I/opt/local/include/lzma -I/opt/local/include/ogg -I/opt/local/include/opencv -I/opt/local/include/opencv2 -I/opt/local/include/OpenEXR -I/opt/local/include/openjpeg-1.5 -I/opt/local/include/openssl -I/opt/local/include/opus -I/opt/local/include/orc-0.4 -I/opt/local/include/schroedinger-1.0 -I/opt/local/include/SDL -I/opt/local/include/speex -I/opt/local/include/theora -I/opt/local/include/vorbis -I/opt/local/include/vpx -I/opt/local/include/X11 -I/opt/local/include/xcb -I/opt/local/include/cppunit/config -I/opt/local/include/cppunit/extensions -I/opt/local/include/cppunit/plugin -I/opt/local/include/cppunit/portability -I/opt/local/include/cppunit/tools -I/opt/local/include/cppunit/ui -I/opt/local/include/dirac/libdirac_common -I/opt/local/include/dirac/libdirac_decoder -I/opt/local/include/dirac/libdirac_encoder -I/opt/local/include/freetype2/freetype -I/opt/local/include/libxml2/libxml -I/opt/local/include/opencv2/calib3d -I/opt/local/include/opencv2/contrib -I/opt/local/include/opencv2/core -I/opt/local/include/opencv2/features2d -I/opt/local/include/opencv2/flann -I/opt/local/include/opencv2/gpu -I/opt/local/include/opencv2/highgui -I/opt/local/include/opencv2/imgproc -I/opt/local/include/opencv2/legacy -I/opt/local/include/opencv2/ml -I/opt/local/include/opencv2/nonfree -I/opt/local/include/opencv2/objdetect -I/opt/local/include/opencv2/photo -I/opt/local/include/opencv2/stitching -I/opt/local/include/opencv2/ts -I/opt/local/include/opencv2/video -I/opt/local/include/opencv2/videostab -I/opt/local/include/orc-0.4/orc -I/opt/local/include/orc-0.4/orc-test -I/opt/local/include/schroedinger-1.0/schroedinger -I/opt/local/include/X11/extensions -I/opt/local/include/cppunit/ui/mfc -I/opt/local/include/cppunit/ui/qt -I/opt/local/include/cppunit/ui/text -I/opt/local/include/freetype2/freetype/config -I/opt/local/include/opencv2/gpu/device -I/opt/local/include/opencv2/stitching/detail -I/opt/local/include/opencv2/gpu/device/detail -I/usr/local/include/OpenEXR -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/myPrograms/OpenKinect/build/Release/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/QueueDemo.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/QueueDemo.o0#
 
 CCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o /myPrograms/OpenKinect/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_0
-s382394914.494686
-e382394915.076710
-r0
+s383816260.892743
+e383816261.967628
+r1
 xCompileC
 xbuild/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o
 x/myPrograms/OpenKinect/main.cpp
@@ -1090,10 +1107,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_0
-o/myPrograms/OpenKinect/main.cpp: In function 'void calibrateRGBToDepth(uint8_t*, uint8_t*)':
-o/myPrograms/OpenKinect/main.cpp:734: error: cannot convert 'MyFreenectDevice*' to 'freenect_device*' for argument '1' to 'freenect_registration freenect_copy_registration(freenect_device*)'
-o/myPrograms/OpenKinect/main.cpp:746: error: 'depthPixelsRaw' was not declared in this scope
-lSLF07#2@39"Compile /myPrograms/OpenKinect/main.cpp382394914#382394915#0(375"/myPrograms/OpenKinect/main.cpp: In function 'void calibrateRGBToDepth(uint8_t*, uint8_t*)':/myPrograms/OpenKinect/main.cpp:734: error: cannot convert 'MyFreenectDevice*' to 'freenect_device*' for argument '1' to 'freenect_registration freenect_copy_registration(freenect_device*)'/myPrograms/OpenKinect/main.cpp:746: error: 'depthPixelsRaw' was not declared in this scope2(4@145"Cannot convert 'MyFreenectDevice*' to 'freenect_device*' for argument '1' to 'freenect_registration freenect_copy_registration(freenect_device*)'382394914#93#190#0(6@31"/myPrograms/OpenKinect/main.cpp382394913#734#0#734#0#0"0(4@47"'depthPixelsRaw' was not declared in this scope382394914#283#92#0(6@31"/myPrograms/OpenKinect/main.cpp382394913#746#0#746#0#34"'*' was not declared in this scope0(0#0#31"/myPrograms/OpenKinect/main.cpp8655059520#1051"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Release -I/opt/local/include -I/usr/local/include/OpenEXR -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/myPrograms/OpenKinect/build/Release/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/main.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o1#
+lSLF07#2@39"Compile /myPrograms/OpenKinect/main.cpp383816260#383816261#0(0"0(0#0#31"/myPrograms/OpenKinect/main.cpp8613746176#1051"    cd /myPrograms/OpenKinect    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/OpenKinect.hmap -F/myPrograms/OpenKinect/build/Release -I/opt/local/include -I/usr/local/include/OpenEXR -I/libusb-7da756e/openC/libfreenect/wrappers/c_sync -I/libusb-7da756e/openC/libfreenect/include -I/libusb-7da756e/openC/libfreenect/wrappers/cpp -I/myPrograms/OpenKinect/build/Release/include -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources/x86_64 -I/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/DerivedSources -c /myPrograms/OpenKinect/main.cpp -o /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o0#
 
 CCompileC build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o /myPrograms/OpenKinect/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s381916643.555506
@@ -1299,8 +1313,8 @@ CCreateUniversalBinary /myPrograms/OpenKinect/build/Release/OpenKinect normal "x
 r0
 
 CGenerateDSYMFile /myPrograms/OpenKinect/build/Release/OpenKinect.dSYM /myPrograms/OpenKinect/build/Release/OpenKinect
-s382394338.171681
-e382394338.244228
+s383816262.169856
+e383816262.263867
 r1
 xGenerateDSYMFile
 x/myPrograms/OpenKinect/build/Release/OpenKinect.dSYM
@@ -1308,22 +1322,22 @@ x/myPrograms/OpenKinect/build/Release/OpenKinect
 owarning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
 owarning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
 owarning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-owarning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
-lSLF07#2@71"GenerateDSYMFile build/Release/OpenKinect.dSYM build/Release/OpenKinect382394338#382394338#0(3762"warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.18(22@208"warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000be81 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bec7 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bf52 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000bf98 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000c02a has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.382394338#18446744073709551615#0#0(6@0"382394338#0#0#0#0#0"0(0#0#47"/myPrograms/OpenKinect/build/Release/OpenKinect8635378048#166"    cd /myPrograms/OpenKinect    /Developer/usr/bin/dsymutil /myPrograms/OpenKinect/build/Release/OpenKinect -o /myPrograms/OpenKinect/build/Release/OpenKinect.dSYM0#
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+owarning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.
+lSLF07#2@71"GenerateDSYMFile build/Release/OpenKinect.dSYM build/Release/OpenKinect383816262#383816262#0(3762"warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.warning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.18(22@208"warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x000011b1 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e581 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e5c7 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e652 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e698 has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_byte_size attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_decl_file attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(22@208"warning: invalid DWARF generated by the compiler: DIE 0x0000e72a has multiple  AT_decl_line attributes in '/myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/main.o'.383816262#18446744073709551615#0#0(6@0"383816262#0#0#0#0#0"0(0#0#47"/myPrograms/OpenKinect/build/Release/OpenKinect8611425920#166"    cd /myPrograms/OpenKinect    /Developer/usr/bin/dsymutil /myPrograms/OpenKinect/build/Release/OpenKinect -o /myPrograms/OpenKinect/build/Release/OpenKinect.dSYM0#
 
 CLd /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/i386/OpenKinect normal i386
 s382028765.752952
@@ -1433,12 +1447,12 @@ CLd /myPrograms/OpenKinect/build/Release/OpenKinect normal i386
 r0
 
 CLd /myPrograms/OpenKinect/build/Release/OpenKinect normal x86_64
-s382394337.672906
-e382394338.171463
+s383816261.967717
+e383816262.169613
 r1
 xLd
 x/myPrograms/OpenKinect/build/Release/OpenKinect
 xnormal
 xx86_64
-lSLF07#2@52"Link /myPrograms/OpenKinect/build/Release/OpenKinect382394337#382394338#0(0"0(0#0#0"32932993185022068#909"    cd /myPrograms/OpenKinect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.0 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/OpenKinect/build/Release -L/libusb-7da756e/openC/libfreenect/build/lib/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Release -L/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug -L/libusb-7da756e/openC/libfreenect/build/lib -L/opt/local/lib -L/opt/libjpeg-turbo/lib -F/myPrograms/OpenKinect/build/Release -filelist /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList -mmacosx-version-min=10.6 -lHalf.6.0.0 -lIex.6.0.0 -lIlmImf.6.0.0 -lIlmThread.6.0.0 -lImath.6.0.0 -lfreenect -lfreenect_sync -lfreenect -lfreenect_sync -lfreenect -lfreenect -lfreenect_sync -lfreenect -framework GLUT -framework OpenGL -ljpeg -o /myPrograms/OpenKinect/build/Release/OpenKinect0#
+lSLF07#2@52"Link /myPrograms/OpenKinect/build/Release/OpenKinect383816261#383816262#0(0"0(0#0#0"8612711840#909"    cd /myPrograms/OpenKinect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.0 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/OpenKinect/build/Release -L/libusb-7da756e/openC/libfreenect/build/lib/Debug -L/libusb-7da756e/openC/libfreenect/build/lib/Release -L/libusb-7da756e/openC/libfreenect/build/lib/fakenect/Debug -L/libusb-7da756e/openC/libfreenect/build/lib -L/opt/local/lib -L/opt/libjpeg-turbo/lib -F/myPrograms/OpenKinect/build/Release -filelist /myPrograms/OpenKinect/build/OpenKinect.build/Release/OpenKinect.build/Objects-normal/x86_64/OpenKinect.LinkFileList -mmacosx-version-min=10.6 -lHalf.6.0.0 -lIex.6.0.0 -lIlmImf.6.0.0 -lIlmThread.6.0.0 -lImath.6.0.0 -lfreenect -lfreenect_sync -lfreenect -lfreenect_sync -lfreenect -lfreenect -lfreenect_sync -lfreenect -framework GLUT -framework OpenGL -ljpeg -o /myPrograms/OpenKinect/build/Release/OpenKinect0#
 
